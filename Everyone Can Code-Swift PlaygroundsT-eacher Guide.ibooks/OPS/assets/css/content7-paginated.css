@@ -1,0 +1,98 @@
+@namespace ibooks "http://www.apple.com/2011/iBooks";
+#textShape-108{
+	-ibooks-line-hints: textShape-108 p url(../hints/content7-paginated.plist) 17 1;
+}
+#textShape-964{
+	-ibooks-line-hints: textShape-964 p url(../hints/content7-paginated.plist) 0 1;
+}
+#textShape-32{
+	-ibooks-line-hints: textShape-32 p url(../hints/content7-paginated.plist) 18 1;
+}
+#textShape-107{
+	-ibooks-line-hints: textShape-107 p url(../hints/content7-paginated.plist) 16 1;
+}
+#textShape-761{
+	-ibooks-line-hints: textShape-761 p url(../hints/content7-paginated.plist) 1 15;
+}
+@page ::nth-instance
+{
+	height: 748.0pt;
+	width: 1024.0pt;
+	::slot(textShape-47)
+	{
+		height: 788.000pt;
+		left: -9.000pt;
+		top: -20.000pt;
+		width: 1042.000pt;
+		z-index: 1;
+	}
+	::slot(textShape-48)
+	{
+		-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+		height: 380.000pt;
+		left: -7.000pt;
+		top: 370.000pt;
+		width: 1038.000pt;
+		z-index: 2;
+	}
+	::slot(textShape-964)
+	{
+		height: 20.000pt;
+		left: 836.000pt;
+		top: 715.000pt;
+		width: 137.000pt;
+		z-index: 3;
+	}
+	::slot(textShape-761)
+	{
+		height: 345.000pt;
+		left: 50.316pt;
+		top: 400.000pt;
+		width: 916.000pt;
+		z-index: 4;
+	}
+	::slot(framethumb-37)
+	{
+		-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+		height: 112.000pt;
+		left: 815.000pt;
+		top: 282.000pt;
+		width: 112.000pt;
+		z-index: 5;
+	}
+	::slot(textShape-107)
+	{
+		height: 45.000pt;
+		left: 50.000pt;
+		top: 292.000pt;
+		width: 758.000pt;
+		z-index: 6;
+	}
+	::slot(textShape-108)
+	{
+		height: 117.000pt;
+		left: 50.000pt;
+		top: 178.000pt;
+		width: 391.000pt;
+		z-index: 7;
+	}
+	::slot(image-28)
+	{
+		-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+		height: 40.000pt;
+		left: 934.000pt;
+		top: 292.000pt;
+		width: 40.000pt;
+		z-index: 8;
+	}
+	::slot(textShape-32)
+	{
+		height: 71.000pt;
+		left: 934.000pt;
+		top: 276.000pt;
+		width: 41.000pt;
+		z-index: 9;
+	}
+	-ibooks-positioned-slots: textShape-47, textShape-48, textShape-964, textShape-761, framethumb-37, textShape-107, textShape-108, image-28, textShape-32;
+}
+

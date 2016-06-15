@@ -1,0 +1,45 @@
+@namespace ibooks "http://www.apple.com/2011/iBooks";
+#textShape-193{
+	-ibooks-line-hints: textShape-193 p url(../hints/content1-paginated.plist) 0 2;
+}
+@page ::nth-instance
+{
+	height: 748.0pt;
+	width: 1024.0pt;
+	::slot(image-273)
+	{
+		-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+		height: 760.069pt;
+		left: -3.042pt;
+		top: -6.380pt;
+		width: 1140.000pt;
+		z-index: 1;
+	}
+	::slot(image-31)
+	{
+		height: 325.000pt;
+		left: -21.000pt;
+		top: -5.000pt;
+		width: 1067.000pt;
+		z-index: 2;
+	}
+	::slot(textShape-193)
+	{
+		height: 247.000pt;
+		left: -3.000pt;
+		top: 37.000pt;
+		width: 1027.000pt;
+		z-index: 3;
+	}
+	::slot(textShape-183)
+	{
+		-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+		height: 0.011pt;
+		left: 386.222pt;
+		top: 755.989pt;
+		width: 619.152pt;
+		z-index: 4;
+	}
+	-ibooks-positioned-slots: image-273, image-31, textShape-193, textShape-183;
+}
+

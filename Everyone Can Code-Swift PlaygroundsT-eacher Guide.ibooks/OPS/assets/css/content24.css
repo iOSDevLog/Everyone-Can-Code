@@ -1,0 +1,1665 @@
+@namespace ibooks "http://www.apple.com/2011/iBooks";
+@font-face{
+  font-family: "MyriadSetPro-Thin";
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: condensed;
+  src: url("../fonts/MyriadSetPro-thin.ttf");
+}
+@font-face{
+  font-family: "MyriadSetOT-Text";
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("../fonts/Myriad%20Set%20Cyr%20Txt.otf");
+}
+@font-face{
+  font-family: "MyriadSetPro-Semibold";
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("../fonts/MyriadSetPro-semibold.ttf");
+}
+@font-face{
+  font-family: "MyriadSetPro-Text";
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("../fonts/MyriadSetPro-text.ttf");
+}
+sup{
+	font-size: 67%;
+	vertical-align: 33%;
+}
+a.anchor{
+	-ibooks-layout-hint: anchor;
+	display: none;
+}
+a.pageShape{
+	-ibooks-layout-hint: anchor page shape;
+	display: none;
+}
+.pagebreak{
+	break-after: page;
+}
+div.multichoice{
+	list-style-type: upper-alpha;
+}
+.columnbreak{
+	break-after: column;
+}
+p, ul, ol{
+	margin: 0px;
+}
+a.shape{
+	-ibooks-layout-hint: shape;
+	display: none;
+}
+body{
+	white-space: pre-wrap;
+}
+.hide{
+	display: none;
+}
+sub{
+	font-size: 67%;
+	vertical-align: -10%;
+}
+a.attachment{
+	-ibooks-layout-hint: inline;
+	display: none;
+}
+table{
+	border-collapse: collapse;
+	white-space: pre-wrap;
+}
+.inlineblock{
+	display: inline;
+}
+a.page{
+	-ibooks-layout-hint: anchor page;
+	display: none;
+}
+.s1{
+	-ibooks-stroke: none;
+	box-shadow: none;
+	fill: none;
+	opacity: 1.000;
+	stroke: none;
+}
+.s2{
+	-ibooks-column-count: 1;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	vertical-align: top;
+}
+.s3{
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #FFFFFF;
+	font-family: "MyriadSetOT-Text";
+	font-size: 108.33%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: none;
+	letter-spacing: 0;
+	line-height: 1.00em;
+	margin-bottom: 10.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: right;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s4{
+	-ibooks-list-text-indent: 0.00pt;
+	color: #7F7F7F;
+}
+.s5{
+	-ibooks-stroke: none;
+	box-shadow: none;
+	fill: #EBEBEB;
+	opacity: 1.000;
+	stroke: #818181;
+	stroke-linecap: butt;
+	stroke-linejoin: miter;
+	stroke-miterlimit: 4.0;
+	stroke-width: 1.0pt;
+}
+.s6{
+	-ibooks-stroke: none;
+	border-radius: 3.000;
+	box-shadow: none;
+	fill: #EBEBEB;
+	opacity: 1.000;
+	padding: 6.000;
+	stroke: #818181;
+	stroke-linecap: butt;
+	stroke-linejoin: miter;
+	stroke-miterlimit: 4.0;
+	stroke-width: 1.0pt;
+}
+.s7{
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #232323;
+	font-family: "Georgia";
+	font-size: 133.33%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: auto;
+	letter-spacing: 0;
+	line-height: 1.20em;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s8{
+	-ibooks-list-text-indent: 0.00pt;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-color: #CBCBCB;
+	border-bottom-style: solid;
+	border-bottom-width: 1.00px;
+	color: #232323;
+	font-family: "MyriadSetPro-Semibold";
+	font-size: 141.67%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	hyphens: auto;
+	letter-spacing: 0;
+	line-height: 1.00em;
+	margin-bottom: 10.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 34.00pt;
+	padding-bottom: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: uppercase;
+	vertical-align: 0;
+}
+.s9{
+	-ibooks-line-spacing-mode: exact;
+	-ibooks-list-text-indent: 0.00pt;
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #424242;
+	font-family: "MyriadSetPro-Text";
+	font-size: 150.00%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: none;
+	letter-spacing: 0;
+	line-height: 23.00pt;
+	margin-bottom: 12.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s10{
+	padding-left: 0;
+}
+.s11{
+	-ibooks-bullet-baseline: 0.00pt;
+	-ibooks-custom-bullet: "•";
+	-ibooks-line-spacing-mode: exact;
+	-ibooks-list-text-indent: 14.40pt;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #424242;
+	font-family: "MyriadSetPro-Text";
+	font-size: 150.00%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: none;
+	letter-spacing: 0;
+	line-height: 23.00pt;
+	list-style-position: -ibooks-inside-align-to-text;
+	margin-bottom: 12.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+}
+.s12{
+	-ibooks-line-spacing-mode: exact;
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #515151;
+	font-family: "MyriadSetPro-Text";
+	font-size: 83.33%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: none;
+	letter-spacing: 0;
+	line-height: 22.00pt;
+	margin-bottom: 15.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s13{
+	-ibooks-list-text-indent: 0.00pt;
+	font-size: 100.00%;
+	tab-stops: '' left 117.0pt;
+}
+.s14{
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #000000;
+	font-family: "MyriadSetPro-Thin";
+	font-size: 200.00%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: auto;
+	letter-spacing: 0;
+	line-height: 1.00em;
+	margin-bottom: 6.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 18.00pt;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s15{
+	-ibooks-list-text-indent: 0.00pt;
+	color: #797979;
+}
+.s16{
+	-ibooks-stroke: none;
+	box-shadow: -0.0pt 5.0pt 12.0pt rgba(0,0,0,0.400000);
+	fill: #FFFFFF;
+	opacity: 1.000;
+	stroke: #A6A6A6;
+	stroke-linecap: butt;
+	stroke-linejoin: miter;
+	stroke-miterlimit: 4.0;
+	stroke-width: 1.0pt;
+}
+.s17{
+	stroke: #818181;
+}
+.s18{
+	padding-bottom: 4.00pt;
+	padding-left: 4.00pt;
+	padding-right: 4.00pt;
+	padding-top: 4.00pt;
+}
+.s19{
+	-ibooks-line-spacing-mode: exact;
+	-ibooks-list-text-indent: 0.00pt;
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #424242;
+	font-family: "MyriadSetPro-Semibold";
+	font-size: 158.33%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	hyphens: auto;
+	letter-spacing: 0;
+	line-height: 25.00pt;
+	margin-bottom: 2.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s20{
+	-ibooks-line-spacing-mode: exact;
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #424242;
+	font-family: "MyriadSetPro-Text";
+	font-size: 150.00%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: none;
+	letter-spacing: 0;
+	line-height: 23.00pt;
+	margin-bottom: 12.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s21{
+	-ibooks-list-text-indent: 0.00pt;
+}
+.s22{
+	-ibooks-bullet-baseline: 0.00pt;
+	-ibooks-line-spacing-mode: exact;
+	-ibooks-list-text-indent: 18.00pt;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #424242;
+	font-family: "MyriadSetPro-Text";
+	font-size: 150.00%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: none;
+	letter-spacing: 0;
+	line-height: 23.00pt;
+	list-style-position: -ibooks-inside-align-to-text;
+	list-style-type: decimal;
+	margin-bottom: 12.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+}
+.s23{
+	counter-reset: item 4;
+	padding-left: 0;
+}
+.s24{
+	-ibooks-bullet-baseline: 0.00pt;
+	-ibooks-list-text-indent: 18.00pt;
+	list-style-position: -ibooks-inside-align-to-text;
+	list-style-type: decimal;
+}
+.s25{
+	counter-reset: item 5;
+}
+.s26{
+	counter-reset: item 6;
+}
+.s27{
+	-ibooks-line-spacing-mode: exact;
+	-ibooks-list-text-indent: 0.00pt;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #424242;
+	font-family: "MyriadSetPro-Text";
+	font-size: 150.00%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: none;
+	letter-spacing: 0;
+	line-height: 23.00pt;
+	margin-bottom: 12.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+}
+.s28{
+	background-color: #DADBDB;
+	border-bottom: 0.250pt solid #606060;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	padding: 4.0pt 4.0pt;
+	text-align: left;
+	vertical-align: middle;
+	white-space: pre-wrap;
+}
+.s29{
+	-ibooks-line-spacing-mode: exact;
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #232323;
+	font-family: "MyriadSetPro-Text";
+	font-size: 133.33%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: none;
+	letter-spacing: 0;
+	line-height: 20.00pt;
+	margin-bottom: 20.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s30{
+	-ibooks-list-text-indent: 0.00pt;
+	font-family: "MyriadSetPro-Semibold";
+	font-weight: bold;
+	margin-bottom: 0;
+}
+.s31{
+	background-color: #F2F2F2;
+	border-bottom: 0.250pt solid #606060;
+	border-left: none;
+	border-right: none;
+	border-top: 0.250pt solid #606060;
+	padding: 4.0pt 4.0pt;
+	text-align: left;
+	vertical-align: middle;
+	white-space: pre-wrap;
+}
+.s32{
+	-ibooks-line-spacing-mode: exact;
+	-ibooks-list-text-indent: 0.00pt;
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #232323;
+	font-family: "MyriadSetPro-Text";
+	font-size: 133.33%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: none;
+	letter-spacing: 0;
+	line-height: 20.00pt;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s33{
+	background-color: #FFFFFF;
+	border-bottom: 0.250pt solid #606060;
+	border-left: none;
+	border-right: none;
+	border-top: 0.250pt solid #606060;
+	padding: 4.0pt 4.0pt;
+	text-align: left;
+	vertical-align: middle;
+	white-space: pre-wrap;
+}
+.s34{
+	background-color: #DADBDB;
+	border-bottom: 0.250pt solid #606060;
+	border-left: none;
+	border-right: none;
+	border-top: 0.250pt solid #606060;
+	padding: 4.0pt 4.0pt;
+	text-align: left;
+	vertical-align: middle;
+	white-space: pre-wrap;
+}
+.s35{
+	-ibooks-list-text-indent: 0.00pt;
+	color: #424242;
+	font-size: 150.00%;
+	line-height: 23.00pt;
+	margin-bottom: 12.00pt;
+}
+.c1{
+	background: transparent;
+}
+.c2{
+	-ibooks-strikethru-type: none;
+	-ibooks-underline-type: none;
+	background: transparent;
+	color: #929292;
+	font-family: "MyriadSetPro-Text";
+	font-size: 82.35%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	letter-spacing: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.c3{
+	-ibooks-strikethru-type: none;
+	-ibooks-underline-type: none;
+	background: transparent;
+	color: #232323;
+	font-family: "MyriadSetPro-Semibold";
+	font-size: 100.00%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	letter-spacing: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.c4{
+	-ibooks-strikethru-type: none;
+	-ibooks-underline-type: none;
+	background: transparent;
+	color: #5568A1;
+	font-family: "MyriadSetPro-Semibold";
+	font-size: 100.00%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	letter-spacing: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.c5{
+	-ibooks-strikethru-type: none;
+	-ibooks-underline-type: none;
+	background: transparent;
+	color: #232323;
+	font-family: "MyriadSetPro-Semibold";
+	font-size: 150.00%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	letter-spacing: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.c6{
+	font-size: 133.33%;
+}
+.c7{
+	background: transparent;
+	color: #506AA1;
+	font-family: "MyriadSetPro-Semibold";
+	font-size: 100.00%;
+	font-variant: normal;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#framethumb-15-alt{
+	display: block;
+	height: 39.9pt;
+	left: 36.0pt;
+	top: 7.0pt;
+	visibility: hidden;
+	width: 39.9pt;
+}
+#textShape-1139-svg{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#image-541-gutter{
+	height: 113.0pt;
+	left: 0;
+	top: 0;
+	width: 113.0pt;
+}
+#textShape-1145{
+	-ibooks-slot: textShape-1145;
+	display: block;
+}
+#viewport-popup-207{
+	-ibooks-slot: viewport-popup-207;
+	display: block;
+}
+#textShape-289-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-1140-svg{
+	height: 219.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 350.000pt;
+}
+#table-2{
+	-ibooks-slot: table-2;
+	display: block;
+}
+#framethumb-57{
+	-ibooks-slot: framethumb-57;
+	display: block;
+}
+#viewport-popup-205-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 338.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 205.000pt;
+}
+#textShape-291{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-291 p url(../hints/content24-paginated.plist) 114 3;
+	display: block;
+	height: 81.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 263.000pt;
+}
+#viewport-popup-36-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 573.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 536.000pt;
+}
+#textShape-1153{
+	-ibooks-slot: textShape-1153;
+	display: block;
+}
+#textShape-1147-div{
+	height: 233.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 226.000pt;
+}
+#textShape-1141-svg{
+	height: 360.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 253.000pt;
+}
+#textShape-1149{
+	-ibooks-slot: textShape-1149;
+	display: block;
+}
+#framethumb-7{
+	-ibooks-slot: framethumb-7;
+	display: block;
+}
+#viewport-popup-36{
+	-ibooks-slot: viewport-popup-36;
+	display: block;
+}
+#textShape-1148-div{
+	height: 233.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 306.000pt;
+}
+#textShape-1138{
+	-ibooks-slot: textShape-1138;
+	display: block;
+}
+#textShape-1142-svg{
+	height: 268.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 181.000pt;
+}
+#textShape-1142{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-1142 p url(../hints/content24-paginated.plist) 39 8;
+	display: block;
+	height: 268.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 181.000pt;
+}
+#textShape-1137-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-293-div{
+	height: 523.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 512.000pt;
+}
+#textShape-1149-div{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 331.000pt;
+}
+#textShape-1143-svg{
+	height: 233.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 143.000pt;
+}
+#viewport-popup-205{
+	-ibooks-slot: viewport-popup-205;
+	display: block;
+}
+#textShape-328-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-1157{
+	-ibooks-slot: textShape-1157;
+	display: block;
+}
+#image-540-gutter{
+	height: 113.0pt;
+	left: 0;
+	top: 0;
+	width: 113.0pt;
+}
+#textShape-1144-svg{
+	height: 186.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 390.000pt;
+}
+#image-542-gutter{
+	height: 113.0pt;
+	left: 0;
+	top: 0;
+	width: 113.0pt;
+}
+#image-185{
+	-ibooks-slot: image-185;
+	display: block;
+}
+#textShape-1146{
+	-ibooks-slot: textShape-1146;
+	display: block;
+}
+#textShape-1145-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#image-540{
+	-ibooks-slot: image-540;
+	display: block;
+}
+#image-536{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+	display: block;
+	height: 51.000pt;
+	left: 50.000pt;
+	position: absolute;
+	top: 10.000pt;
+	width: 51.000pt;
+}
+#textShape-1146-svg{
+	height: 548.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 573.000pt;
+}
+#textShape-1140-div{
+	height: 219.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 350.000pt;
+}
+#image-92-gutter{
+	height: 113.0pt;
+	left: 0;
+	top: 0;
+	width: 113.0pt;
+}
+#image-538-gutter{
+	height: 113.0pt;
+	left: 0;
+	top: 0;
+	width: 113.0pt;
+}
+#framethumb-57-gutter{
+	height: 51.0pt;
+	left: 0;
+	top: 0;
+	width: 51.0pt;
+}
+#image-537{
+	-ibooks-slot: image-537;
+	display: block;
+}
+#textShape-1147-svg{
+	height: 233.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 226.000pt;
+}
+#image-541{
+	-ibooks-slot: image-541;
+	display: block;
+}
+#textShape-1141-div{
+	height: 360.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 253.000pt;
+}
+#textShape-289{
+	-ibooks-slot: textShape-289;
+	display: block;
+}
+#textShape-289-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-293{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-293 p url(../hints/content24-paginated.plist) 117 17;
+	display: block;
+	height: 523.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 512.000pt;
+}
+#textShape-328-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#framethumb-7-alt{
+	display: block;
+	height: 39.9pt;
+	left: 62.0pt;
+	top: 6.0pt;
+	visibility: hidden;
+	width: 39.9pt;
+}
+#textShape-1148-svg{
+	height: 233.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 306.000pt;
+}
+#image-538{
+	-ibooks-slot: image-538;
+	display: block;
+}
+#image-542{
+	-ibooks-slot: image-542;
+	display: block;
+}
+#framethumb-15{
+	-ibooks-slot: framethumb-15;
+	display: block;
+}
+#textShape-1142-div{
+	height: 268.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 181.000pt;
+}
+#textShape-290-svg{
+	height: 238.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 573.000pt;
+}
+#viewport-popup-208{
+	-ibooks-slot: viewport-popup-208;
+	display: block;
+}
+#viewport-popup-206-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 272.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 167.000pt;
+}
+#image-153{
+	-ibooks-slot: image-153;
+	display: block;
+}
+#textShape-1149-svg{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 331.000pt;
+}
+#textShape-1139{
+	-ibooks-slot: textShape-1139;
+	display: block;
+}
+#textShape-1143{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-1143 p url(../hints/content24-paginated.plist) 47 7;
+	display: block;
+	height: 233.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 143.000pt;
+}
+#textShape-1143-div{
+	height: 233.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 143.000pt;
+}
+#textShape-290{
+	-ibooks-slot: textShape-290;
+	display: block;
+}
+#image-154{
+	-ibooks-slot: image-154;
+	display: block;
+}
+#image-539{
+	-ibooks-slot: image-539;
+	display: block;
+}
+#textShape-291-div{
+	height: 81.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 263.000pt;
+}
+#viewport-popup-36-alt{
+	display: block;
+	height: 574.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 537.0pt;
+}
+#textShape-1155-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#image-155{
+	-ibooks-slot: image-155;
+	display: block;
+}
+#textShape-1144-div{
+	height: 186.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 390.000pt;
+}
+#image-87-gutter{
+	height: 113.0pt;
+	left: 0;
+	top: 0;
+	width: 113.0pt;
+}
+#viewport-popup-21-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 122.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 287.000pt;
+}
+#textShape-293-svg{
+	height: 523.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 512.000pt;
+}
+#framethumb-15-gutter{
+	height: 40.0pt;
+	left: 0;
+	top: 0;
+	width: 40.0pt;
+}
+#textShape-1156-div{
+	height: 582.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 566.000pt;
+}
+#image-160{
+	-ibooks-slot: image-160;
+	display: block;
+}
+#viewport-popup-208-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 271.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 250.000pt;
+}
+#textShape-1145-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-269-div{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#image-156{
+	-ibooks-slot: image-156;
+	display: block;
+}
+#textShape-1147{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-1147 p url(../hints/content24-paginated.plist) 78 7;
+	display: block;
+	height: 233.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 226.000pt;
+}
+#textShape-1157-div{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#image-157{
+	-ibooks-slot: image-157;
+	display: block;
+}
+#textShape-1146-div{
+	height: 548.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 573.000pt;
+}
+#image-161{
+	-ibooks-slot: image-161;
+	display: block;
+}
+#image-537-gutter{
+	height: 113.0pt;
+	left: 0;
+	top: 0;
+	width: 113.0pt;
+}
+#image-539-gutter{
+	height: 113.0pt;
+	left: 0;
+	top: 0;
+	width: 113.0pt;
+}
+#textShape-290-div{
+	height: 238.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 573.000pt;
+}
+#textShape-1152-svg{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#image-66{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+	display: block;
+	height: 40.000pt;
+	left: 62.000pt;
+	position: absolute;
+	top: 6.000pt;
+	width: 40.000pt;
+}
+#viewport-popup-206{
+	-ibooks-slot: viewport-popup-206;
+	display: block;
+}
+#image-158{
+	-ibooks-slot: image-158;
+	display: block;
+}
+#textShape-337-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#image-162{
+	-ibooks-slot: image-162;
+	display: block;
+}
+#textShape-1140{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-1140 p url(../hints/content24-paginated.plist) 30 9;
+	display: block;
+	height: 219.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 350.000pt;
+}
+#image-71{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+	display: block;
+	height: 40.000pt;
+	left: 36.000pt;
+	position: absolute;
+	top: 7.000pt;
+	width: 40.000pt;
+}
+#textShape-1153-svg{
+	height: 412.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 573.000pt;
+}
+#image-159{
+	-ibooks-slot: image-159;
+	display: block;
+}
+#image-163{
+	-ibooks-slot: image-163;
+	display: block;
+}
+#viewport-popup-204-alt{
+	display: block;
+	height: 267.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 375.0pt;
+}
+#textShape-1155{
+	-ibooks-slot: textShape-1155;
+	display: block;
+}
+#textShape-269{
+	-ibooks-slot: textShape-269;
+	display: block;
+}
+#viewport-popup-205-alt{
+	display: block;
+	height: 339.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 206.0pt;
+}
+#textShape-1144{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-1144 p url(../hints/content24-paginated.plist) 54 6;
+	display: block;
+	height: 186.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 390.000pt;
+}
+#viewport-popup-207-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 225.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 414.000pt;
+}
+#textShape-1138-div{
+	height: 604.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 564.000pt;
+}
+#textShape-1155-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-328{
+	-ibooks-slot: textShape-328;
+	display: block;
+}
+#framethumb-57-alt{
+	display: block;
+	height: 50.8pt;
+	left: 50.0pt;
+	top: 10.0pt;
+	visibility: hidden;
+	width: 50.8pt;
+}
+#textShape-1156-svg{
+	height: 582.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 566.000pt;
+}
+#textShape-1139-div{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#viewport-popup-204-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 266.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 374.000pt;
+}
+#viewport-popup-206-alt{
+	display: block;
+	height: 273.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 168.0pt;
+}
+#textShape-291-svg{
+	height: 81.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 263.000pt;
+}
+#textShape-337-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-1157-svg{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#viewport-popup-204{
+	-ibooks-slot: viewport-popup-204;
+	display: block;
+}
+#viewport-popup-207-alt{
+	display: block;
+	height: 226.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 415.0pt;
+}
+#viewport-popup-209{
+	-ibooks-slot: viewport-popup-209;
+	display: block;
+}
+#textShape-1148{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	-ibooks-line-hints: textShape-1148 p url(../hints/content24-paginated.plist) 85 7;
+	display: block;
+	height: 233.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 306.000pt;
+}
+#textShape-1152{
+	-ibooks-slot: textShape-1152;
+	display: block;
+}
+#framethumb-7-gutter{
+	height: 40.0pt;
+	left: 0;
+	top: 0;
+	width: 40.0pt;
+}
+#textShape-1152-div{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#viewport-popup-209-background{
+	-ibooks-box-wrap-exterior-path: directional rectangular both 12.0pt 0.500000 false;
+	display: block;
+	height: 278.000pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 330.000pt;
+}
+#textShape-269-svg{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#viewport-popup-208-alt{
+	display: block;
+	height: 272.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 251.0pt;
+}
+#textShape-1137{
+	-ibooks-slot: textShape-1137;
+	display: block;
+}
+#textShape-1153-div{
+	height: 412.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 573.000pt;
+}
+#textShape-1141{
+	-ibooks-slot: textShape-1141;
+	display: block;
+}
+#viewport-popup-209-alt{
+	display: block;
+	height: 279.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 331.0pt;
+}
+#image-87{
+	-ibooks-slot: image-87;
+	display: block;
+}
+#textShape-1137-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#viewport-popup-21{
+	-ibooks-slot: viewport-popup-21;
+	display: block;
+}
+#viewport-popup-21-alt{
+	display: block;
+	height: 123.0pt;
+	left: -0.5pt;
+	top: -0.5pt;
+	visibility: hidden;
+	width: 288.0pt;
+}
+#image-92{
+	-ibooks-slot: image-92;
+	display: block;
+}
+#textShape-337{
+	-ibooks-slot: textShape-337;
+	display: block;
+}
+#textShape-1156{
+	-ibooks-slot: textShape-1156;
+	display: block;
+}
+#textShape-1138-svg{
+	height: 604.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 564.000pt;
+}

@@ -1,0 +1,1050 @@
+@namespace ibooks "http://www.apple.com/2011/iBooks";
+@font-face{
+  font-family: "MyriadSetPro-Bold";
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("../fonts/MyriadSetPro-bold.ttf");
+}
+@font-face{
+  font-family: "MyriadSetPro-Thin";
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: condensed;
+  src: url("../fonts/MyriadSetPro-thin.ttf");
+}
+@font-face{
+  font-family: "MyriadSetOT-Text";
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("../fonts/Myriad%20Set%20Cyr%20Txt.otf");
+}
+@font-face{
+  font-family: "MyriadSetPro-Semibold";
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("../fonts/MyriadSetPro-semibold.ttf");
+}
+@font-face{
+  font-family: "MyriadSetPro-Text";
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("../fonts/MyriadSetPro-text.ttf");
+}
+sup{
+	font-size: 67%;
+	vertical-align: 33%;
+}
+a.anchor{
+	-ibooks-layout-hint: anchor;
+	display: none;
+}
+a.pageShape{
+	-ibooks-layout-hint: anchor page shape;
+	display: none;
+}
+.pagebreak{
+	break-after: page;
+}
+div.multichoice{
+	list-style-type: upper-alpha;
+}
+.columnbreak{
+	break-after: column;
+}
+p, ul, ol{
+	margin: 0px;
+}
+a.shape{
+	-ibooks-layout-hint: shape;
+	display: none;
+}
+body{
+	white-space: pre-wrap;
+}
+.hide{
+	display: none;
+}
+sub{
+	font-size: 67%;
+	vertical-align: -10%;
+}
+a.attachment{
+	-ibooks-layout-hint: inline;
+	display: none;
+}
+table{
+	border-collapse: collapse;
+	white-space: pre-wrap;
+}
+.inlineblock{
+	display: inline;
+}
+a.page{
+	-ibooks-layout-hint: anchor page;
+	display: none;
+}
+.s1{
+	-ibooks-stroke: none;
+	box-shadow: none;
+	fill: #5ABEC1;
+	opacity: 1.000;
+	stroke: #4D4D4D;
+	stroke-linecap: butt;
+	stroke-linejoin: miter;
+	stroke-miterlimit: 4.0;
+	stroke-width: 0.5pt;
+}
+.s2{
+	fill: #F6F6EE;
+}
+.s3{
+	fill: #5388B8;
+	stroke: none;
+}
+.s4{
+	-ibooks-stroke: none;
+	box-shadow: none;
+	fill: none;
+	opacity: 1.000;
+	stroke: none;
+}
+.s5{
+	opacity: 0.000;
+}
+.s6{
+	-ibooks-column-count: 1;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	vertical-align: top;
+}
+.s7{
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #232323;
+	font-family: "MyriadSetPro-Semibold";
+	font-size: 150.00%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	hyphens: auto;
+	letter-spacing: 0;
+	line-height: 1.20em;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s8{
+	-ibooks-list-text-indent: 0.00pt;
+	color: #444444;
+	font-family: "MyriadSetPro-Bold";
+	font-size: 400.00%;
+	line-height: 1.00em;
+	text-indent: 3.60pt;
+}
+.s9{
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #000000;
+	font-family: "MyriadSetPro-Thin";
+	font-size: 200.00%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: auto;
+	letter-spacing: 0;
+	line-height: 1.00em;
+	margin-bottom: 6.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 18.00pt;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s10{
+	-ibooks-list-text-indent: 0.00pt;
+	color: rgba(239,179,29,0.000000);
+}
+.s11{
+	-ibooks-line-spacing-mode: exact;
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #424242;
+	font-family: "MyriadSetPro-Text";
+	font-size: 150.00%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: none;
+	letter-spacing: 0;
+	line-height: 23.00pt;
+	margin-bottom: 12.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s12{
+	-ibooks-list-text-indent: 0.00pt;
+	color: #5186BA;
+	font-family: "MyriadSetPro-Thin";
+	font-size: 800.00%;
+	letter-spacing: -0.02em;
+	line-height: 96.00pt;
+	margin-bottom: 20.00pt;
+}
+.s13{
+	-ibooks-line-spacing-mode: exact;
+	-ibooks-list-text-indent: 0.00pt;
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #444444;
+	font-family: "MyriadSetPro-Thin";
+	font-size: 400.00%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: auto;
+	letter-spacing: 0;
+	line-height: 30.00pt;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 3.60pt;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s14{
+	-ibooks-line-spacing-mode: exact;
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #FFFFFF;
+	font-family: "MyriadSetPro-Text";
+	font-size: 150.00%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: none;
+	letter-spacing: 0;
+	line-height: 23.00pt;
+	margin-bottom: 5.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s15{
+	-ibooks-list-text-indent: 0.00pt;
+	font-size: 183.33%;
+	line-height: 27.00pt;
+}
+.s16{
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #FFFFFF;
+	font-family: "MyriadSetOT-Text";
+	font-size: 108.33%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: none;
+	letter-spacing: 0;
+	line-height: 1.00em;
+	margin-bottom: 10.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: right;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s17{
+	-ibooks-list-text-indent: 0.00pt;
+	color: #7F7F7F;
+}
+.s18{
+	-ibooks-list-text-indent: 0.00pt;
+	color: #424242;
+	font-family: "MyriadSetPro-Thin";
+	font-size: 291.67%;
+	font-weight: normal;
+}
+.s19{
+	-ibooks-line-spacing-mode: exact;
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #515151;
+	font-family: "MyriadSetPro-Text";
+	font-size: 83.33%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: none;
+	letter-spacing: 0;
+	line-height: 22.00pt;
+	margin-bottom: 15.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s20{
+	-ibooks-list-text-indent: 0.00pt;
+	font-size: 100.00%;
+	tab-stops: '' left 117.0pt;
+}
+.s21{
+	-ibooks-list-text-indent: 0.00pt;
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-color: #CBCBCB;
+	border-bottom-style: solid;
+	border-bottom-width: 1.00px;
+	color: #444444;
+	font-family: "MyriadSetPro-Semibold";
+	font-size: 150.00%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	hyphens: auto;
+	letter-spacing: 0;
+	line-height: 1.10em;
+	margin-bottom: 10.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 34.00pt;
+	padding-bottom: -2.00pt;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: uppercase;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s22{
+	-ibooks-list-text-indent: 0.00pt;
+	margin-bottom: 6.00pt;
+}
+.s23{
+	padding-left: 0;
+}
+.s24{
+	-ibooks-bullet-baseline: 0.00pt;
+	-ibooks-custom-bullet: "•";
+	-ibooks-line-spacing-mode: exact;
+	-ibooks-list-text-indent: 14.40pt;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #424242;
+	font-family: "MyriadSetPro-Text";
+	font-size: 150.00%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: none;
+	letter-spacing: 0;
+	line-height: 23.00pt;
+	list-style-position: -ibooks-inside-align-to-text;
+	margin-bottom: 6.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+}
+.s25{
+	-ibooks-line-spacing-mode: exact;
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #424242;
+	font-family: "MyriadSetPro-Text";
+	font-size: 150.00%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: none;
+	letter-spacing: 0;
+	line-height: 23.00pt;
+	margin-bottom: 6.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s26{
+	-ibooks-bullet-baseline: 0.00pt;
+	-ibooks-custom-bullet: "•";
+	-ibooks-list-text-indent: 14.40pt;
+	font-family: "MyriadSetPro-Semibold";
+	font-weight: bold;
+	list-style-position: -ibooks-inside-align-to-text;
+}
+.s27{
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-color: #CBCBCB;
+	border-bottom-style: solid;
+	border-bottom-width: 1.00px;
+	color: #444444;
+	font-family: "MyriadSetPro-Semibold";
+	font-size: 150.00%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	hyphens: auto;
+	letter-spacing: 0;
+	line-height: 1.10em;
+	margin-bottom: 10.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 34.00pt;
+	padding-bottom: -2.00pt;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: uppercase;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s28{
+	-ibooks-list-text-indent: 0.00pt;
+}
+.s29{
+	-ibooks-line-spacing-mode: exact;
+	-ibooks-list-text-indent: 0.00pt;
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #424242;
+	font-family: "MyriadSetPro-Text";
+	font-size: 150.00%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: none;
+	letter-spacing: 0;
+	line-height: 23.00pt;
+	margin-bottom: 12.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s30{
+	-ibooks-stroke: none;
+	box-shadow: none;
+	fill: none;
+	marker-end: none;
+	marker-start: none;
+	opacity: 1.000;
+	stroke: #659BC6;
+	stroke-linecap: butt;
+	stroke-linejoin: miter;
+	stroke-miterlimit: 4.0;
+	stroke-width: 0.8pt;
+}
+.s31{
+	-ibooks-column-count: 2;
+	-ibooks-column-gap:  5.00%;
+	-ibooks-column-width:  47.50% 47.50%;
+}
+.s32{
+	-ibooks-list-text-indent: 14.40pt;
+	margin-bottom: 13.00pt;
+}
+.s33{
+	-ibooks-list-text-indent: 14.40pt;
+}
+.s34{
+	-ibooks-line-spacing-mode: exact;
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #424242;
+	font-family: "MyriadSetPro-Semibold";
+	font-size: 150.00%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	hyphens: none;
+	letter-spacing: 0;
+	line-height: 23.00pt;
+	margin-bottom: 5.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 15.00pt;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s35{
+	-ibooks-list-text-indent: 0.00pt;
+	line-height: 22.00pt;
+}
+.s36{
+	-ibooks-bullet-baseline: 0.00pt;
+	-ibooks-custom-bullet: "•";
+	-ibooks-list-text-indent: 14.40pt;
+	line-height: 22.00pt;
+	list-style-position: -ibooks-inside-align-to-text;
+}
+.s37{
+	-ibooks-list-text-indent: 0.00pt;
+	line-height: 22.00pt;
+	margin-bottom: 17.00pt;
+}
+.s38{
+	-ibooks-list-text-indent: 14.40pt;
+	line-height: 22.00pt;
+	margin-left: 12.60pt;
+}
+.c1{
+	font-style: normal;
+}
+.c2{
+	font-family: "MyriadSetPro-Semibold";
+	font-weight: bold;
+}
+.c3{
+	background: transparent;
+}
+.c4{
+	background: transparent;
+	font-style: normal;
+}
+.c5{
+	color: #7A7A7A;
+	font-family: "MyriadSetPro-Text";
+	font-size: 77.78%;
+	font-variant: normal;
+	font-weight: normal;
+	text-transform: none;
+}
+.c6{
+	-ibooks-strikethru-type: none;
+	-ibooks-underline-type: none;
+	background: transparent;
+	color: #424242;
+	font-family: "MyriadSetPro-Semibold";
+	font-size: 100.00%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	letter-spacing: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.c7{
+	letter-spacing: -0.02em;
+}
+#textShape-648-svg{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#textShape-425{
+	-ibooks-slot: textShape-425;
+	display: block;
+}
+#textShape-441{
+	-ibooks-slot: textShape-441;
+	display: block;
+}
+#textShape-53{
+	-ibooks-slot: textShape-53;
+	display: block;
+}
+#textShape-222-div{
+	height: 558.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 921.000pt;
+}
+#textShape-51-div{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#textShape-641{
+	-ibooks-slot: textShape-641;
+	display: block;
+}
+#textShape-6-svg{
+	height: 178.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 661.000pt;
+}
+#textShape-645{
+	-ibooks-slot: textShape-645;
+	display: block;
+}
+#textShape-217-svg{
+	height: 274.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 915.000pt;
+}
+#textShape-220{
+	-ibooks-slot: textShape-220;
+	display: block;
+}
+#textShape-147-div{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#textShape-50{
+	-ibooks-slot: textShape-50;
+	display: block;
+}
+#textShape-222{
+	-ibooks-slot: textShape-222;
+	display: block;
+}
+#textShape-644-div{
+	height: 59.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 421.000pt;
+}
+#textShape-147{
+	-ibooks-slot: textShape-147;
+	display: block;
+}
+#textShape-218-svg{
+	height: 456.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 545.000pt;
+}
+#textShape-54{
+	-ibooks-slot: textShape-54;
+	display: block;
+}
+#textShape-219{
+	-ibooks-slot: textShape-219;
+	display: block;
+}
+#textShape-646-div{
+	height: 50.495pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 596.694pt;
+}
+#textShape-217{
+	-ibooks-slot: textShape-217;
+	display: block;
+}
+#textShape-6-div{
+	height: 178.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 661.000pt;
+}
+#textShape-149{
+	-ibooks-slot: textShape-149;
+	display: block;
+}
+#textShape-645-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-219-svg{
+	height: 471.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 321.840pt;
+}
+#textShape-220-svg{
+	height: 521.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 921.000pt;
+}
+#textShape-149-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-51-svg{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#textShape-6{
+	-ibooks-slot: textShape-6;
+	display: block;
+}
+#textShape-54-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-648-div{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#textShape-12-div{
+	height: 166.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 615.000pt;
+}
+#textShape-51{
+	-ibooks-slot: textShape-51;
+	display: block;
+}
+#textShape-222-svg{
+	height: 558.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 921.000pt;
+}
+#textShape-444{
+	-ibooks-slot: textShape-444;
+	display: block;
+}
+#textShape-642{
+	-ibooks-slot: textShape-642;
+	display: block;
+}
+#textShape-644-svg{
+	height: 59.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 421.000pt;
+}
+#textShape-644{
+	-ibooks-slot: textShape-644;
+	display: block;
+}
+#textShape-12{
+	-ibooks-slot: textShape-12;
+	display: block;
+}
+#textShape-646{
+	-ibooks-slot: textShape-646;
+	display: block;
+}
+#textShape-648{
+	-ibooks-slot: textShape-648;
+	display: block;
+}
+#textShape-645-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-12-svg{
+	height: 166.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 615.000pt;
+}
+#textShape-217-div{
+	height: 274.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 915.000pt;
+}
+#textShape-147-svg{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#textShape-146{
+	-ibooks-slot: textShape-146;
+	display: block;
+}
+#textShape-218{
+	-ibooks-slot: textShape-218;
+	display: block;
+}
+#textShape-218-div{
+	height: 456.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 545.000pt;
+}
+#textShape-148{
+	-ibooks-slot: textShape-148;
+	display: block;
+}
+#textShape-54-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-646-svg{
+	height: 50.495pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 596.694pt;
+}
+#textShape-219-div{
+	height: 471.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 321.840pt;
+}
+#textShape-149-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-220-div{
+	height: 521.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 921.000pt;
+}

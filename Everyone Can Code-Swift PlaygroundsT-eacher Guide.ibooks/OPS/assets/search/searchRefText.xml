@@ -1,0 +1,516 @@
+<?xml version="1.0"?>
+<reftext currentVersion="1.0" requiredVersion="0.5"><rs><r ri="1">Groups should share their photo albums to the whole class for discussion. Were the conditions they picked clear? Were there cases that were difficult to judge whether a photo matched? How many photos satisfied each conditional statement? How did the operators affect the quantity of photos?</r><r ri="10">For your curious students, get additional facts and tips about coding.
+</r><r ri="100">When students present their projects, discuss what codes they used to create their worlds. How do their worlds relate to their stories? 
+</r><r ri="101">Interactive puzzles teach key programming concepts in a way that&#x2019;s both fun and challenging, building confidence and skill. You&#x2019;ll write code to create programs that guide a character through a series of puzzles in an interactive graphical world. The programs you create run right beside your code so you can see how to adjust the code until the puzzle is solved. You can record videos of your programs in action and then share your creations.
+</r><r ri="102">OR (||)&#x2014;The OR operator results in true if one or both operands are true; otherwise, the operator results in false.
+</r><r ri="103">Ask students to review both the videos they just made and the videos from Lesson 1 with a partner. Then ask them to upload the videos to an interactive whiteboard app like Explain Everything or a presentation app like Keynote. Mark up the video to highlight where they used for and while loops in their directions. Or ask them to write the instances in Keynote.
+</r><r ri="104">A box has both a label and contents.
+</r><r ri="105">Sequence is the order in which the commands are given.</r><r ri="106">Have students imagine they are moving to a new home. During the move they&#x2019;ll most likely put their belongings into boxes. In order to keep track of all their stuff, they&#x2019;ll probably label the boxes with a word or two that describes the contents. For example, if I put trophies in a box, I&#x2019;d most likely label the box &#x201C;Trophies.&#x201D; This example suggests three important features of  a container:
+</r><r ri="107">Swift is a powerful and intuitive programming language created by Apple that makes programming easier and more flexible. For first-time coders, there&#x2019;s Swift Playgrounds, a new iPad app that makes getting started fun and interactive. By exploring and solving rich puzzle worlds, students develop coding skills that become the foundation of their programming knowledge. 
+</r><r ri="108">Now students will put their coding skills to the test using Swift Playgrounds to complete the puzzles in the list at left. They&#x2019;ll combine their knowledge of commands, functions, and for loops to conquer the last three puzzles in the For Loops chapter. Ask them to try solving the puzzles in multiple ways.
+</r><r ri="109">Was their thought process different or similar when trying to figure out the tallest person versus solving the puzzles?
+</r><r ri="11">Ask students to write a function for conducting a science experiment. Add parameters to test different hypotheses.
+</r><r ri="110">Now students will use Swift Playgrounds to complete the puzzles with checkmarks in the list at left. In the Algorithms chapter, they&#x2019;ll create rules and instructions for solving a problem. 
+</r><r ri="111">What parts of the puzzle did they have to solve in a specific way? What parts were flexible and could be solved with different code?
+</r><r ri="112">Strengthen understanding of math concepts by having students debug incorrectly solved math problems.
+</r><r ri="113">How many moves did it take to solve the puzzle? If they added more moves, would they still solve the puzzle?
+</r><r ri="114">How many different ways do they think there are to solve each puzzle?  Who had the shortest algorithm? Who had the most interesting one?
+</r><r ri="115">Students will now move to Swift Playgrounds and finish the last two puzzles in the Algorithms chapter. They&#x2019;ll write and tweak algorithms that can be reused to solve many different puzzles.
+</r><r ri="116">Now students will use Swift Playgrounds to complete the puzzles in the  list at left. In the Types and Initialization chapters, they&#x2019;ll give instructions  to more than just their characters. They&#x2019;ll use dot notation to reference an instance of a type, allowing them to call methods or modify specific properties on that instance. Then they&#x2019;ll create an instance of a type and initialize a new character to solve puzzles with a mysterious new method.
+</r><r ri="117">Collect and Solve</r><r ri="118">Practice commands and sequence by having students provide directions for how to solve a problem.
+</r><r ri="119">Now students will use Swift Playgrounds to complete the puzzles in the list at left. In the While Loops chapter, they&#x2019;ll run a loop while a Boolean condition is true. They&#x2019;ll create sophisticated conditional code that solves large puzzles effortlessly.
+</r><r ri="12">Now that students have written a function in a for loop, start a discussion with them, asking what they think the terms mean when it comes to coding? 
+</r><r ri="120">Get easy access to the answer keys and use  them to provide support for students who are stuck at specific points in the Swift Playgrounds puzzles. A few puzzles are open ended and have no solution, and many puzzles have multiple solutions.  </r><r ri="121">Command is a specific action for the computer to perform.
+</r><r ri="122">Logical operator: A symbol or words like &#x201C;and,&#x201D; &#x201C;or,&#x201D;and &#x201C;not&#x201D; that connects two or more Booleans to make conditional decisions more specific.
+</r><r ri="123">Logical operator: A symbol or words like &#x201C;and,&#x201D; &#x201C;or,&#x201D;and &#x201C;not&#x201D; that connects two or more Booleans to make conditional decisions more specific.</r><r ri="124">Placing at a Specific Location</r><r ri="125">Now students will use Swift Playgrounds to complete the puzzles in the  list at left. In Parameters, students will use code to pass information in to functions to make them more flexible. They&#x2019;ll use parameters to create custom functions and to initialize their character to a specific location in  the puzzle.
+</r><r ri="126">Functions sometimes require parameters. Parameters can be thought of as extra information we add to a function to make it more specific. For example, in the command, &#x201C;Say Hello,&#x201D; the word &#x201C;Say&#x201D; is the function and &#x201C;Hello&#x201D; is the parameter.
+</r><r ri="127">Think Specifically: Parameters</r><r ri="128">What do they know about thinking specifically?</r><r ri="129">Lesson 9  |  Think Specifically: Parameters</r><r ri="13">Invite students to record their ideas in an app like Notes. When they have finished this task, ask students to share and discuss their work. Does everyone agree with the properties? Why or why not? Are there any missing? Are there any that shouldn&#x2019;t be there? Is each property clear?
+</r><r ri="130">Lesson 9  |  Think Specifically: Parameters</r><r ri="131">Lesson 9  |  Think Specifically: Parameters</r><r ri="132">Lesson 9  |  Think Specifically: Parameters</r><r ri="134">Int
+</r><r ri="135">Ask students to create a name for the part of the pattern that repeats (for example, red, yellow, blue = Primary Colors) and now write the pattern again in words using only the new name.
+</r><r ri="136">In the drawing app, students should then write the pattern they created 20 times, using words. For example, &#x201C;Red, yellow, blue; red, yellow, blue...&#x201D; and so on.
+</r><r ri="137">Have students present their photo albums to another group to see if that group can guess what the condition was. If there&#x2019;s a correct guess, they can add the conditional statement, for example, &#x201C;If blue, then take picture&#x201D; to the page in their album.
+</r><r ri="138">Ask students to imagine building something. It could be a robot, a bike, or even a house. Suppose when they finish, there&#x2019;s an extra piece. Or what they build doesn&#x2019;t work the way it&#x2019;s supposed to. As a class, briefly discuss what they would do. How would they approach fixing the problem?
+</r><r ri="139">Ask students to name something they do all the time that requires multiple steps to complete. These are all algorithms.
+</r><r ri="14">This teacher guide is designed to help you bring Swift Playgrounds into the classroom, no matter what your level of experience with coding is. The lessons highlight key coding concepts while demonstrating how coding is a way of thinking that can be applied to other subjects and everyday life. </r><r ri="140">Pick one example and have multiple students give directions for how they do it. Were their directions the same? Where did they differ? Did they all accomplish the same thing in the end? What&#x2019;s the difference between an algorithm and a function?
+</r><r ri="141">Four Stash Sweep</r><r ri="142">Four Stash Sweep</r><r ri="143">Four by Four</r><r ri="144">Three Gems, Four Switches</r><r ri="145">Think Efficiently: Functions and a Bit of Loops</r><r ri="146">Lesson 3  |  Think Efficiently: Functions and a Bit of Loops</r><r ri="147">What do they know about how to think efficiently?
+</r><r ri="148">Students will learn to make patterns efficiently.
+</r><r ri="149">Lesson 3  |  Think Efficiently: Functions and a Bit of Loops</r><r ri="15">Deepen understanding of coding concepts and how they can be applied both in coding and in everyday life.
+</r><r ri="151">Lesson 3  |  Think Efficiently: Functions and a Bit of Loops</r><r ri="152">In the Functions and For Loops chapters, students learned to create new behaviors. Now they&#x2019;ll use Swift Playgrounds to complete the puzzles in the list at left. Using commands they&#x2019;ve learned, they&#x2019;ll write functions that act as new abilities for their characters. And with loops, they can use code to repeat a behavior as many times as they want, making their code more efficient.
+</r><r ri="153">Students upload their building design text and drawings and coding screens from Swift Playgrounds to their portfolio and add notes about what they learned about type and initialization.
+</r><r ri="154">Students can share their photos with the class as they introduce themselves, then share the photos with you via AirDrop, email, or some other way. 
+</r><r ri="155">Type is a named grouping of properties (the features) and methods (the behaviors) of a kind of data.
+</r><r ri="156">Have each group present their algorithm to the class. The class should actually perform each algorithm.
+</r><r ri="157">Split the class into a few small groups. Each group will come up with a way, or an algorithm, for someone to determine who the tallest person  is in the class. It doesn&#x2019;t count if they just know or if you can tell by just looking!
+</r><r ri="158">Working in small groups, ask students to create a pattern using a drawing app like Art Set or Pages, incorporating different shapes, objects, and colors. The pattern can be as long as they&#x2019;d like.
+</r><r ri="159">Function: A collection of commands grouped together and given a name. The set of commands can then be run with just the name of the function whenever that set is needed.
+</r><r ri="16">You&#x2019;ll find a few suggested questions and prompts for class discussion in this section. They&#x2019;re designed for review, to reinforce the connection between applying the concept inside and outside a coding environment, and to broaden student understanding about what computer scientists do.
+</r><r ri="160">Lesson 0</r><r ri="161">Lesson 0  |  Getting Started</r><r ri="162">Lesson 0  |  Getting Started</r><r ri="163">Lesson 0  |  Getting Started</r><r ri="164">Lesson 1</r><r ri="165">Lesson 1  |  Think Like a Computer: Commands and Sequences</r><r ri="166">Lesson 1  |  Think Like a Computer: Commands and Sequences</r><r ri="167">Lesson 1  |  Think Like a Computer: Commands and Sequences</r><r ri="168">Review coding concepts from Lessons 1 to 3
+</r><r ri="169">Did the two videos students made from Lesson 1 and this lesson differ in the quality of the directions? Was one better than the other or were they the same?
+</r><r ri="17">In this section, you&#x2019;ll define the coding concept and spend  a few minutes as a class discussing an everyday situation that&#x2019;s related to the coding concept. The goal is for students to see that the concept is not used just in coding environments; it&#x2019;s a way of thinking that they can apply to other topics and situations.
+</r><r ri="170">Lesson 2</r><r ri="171">Lesson 2  |  Think Like a Detective: Debugging</r><r ri="172">Lesson 2  |  Think Like a Detective: Debugging</r><r ri="173">Lesson 2  |  Think Like a Detective: Debugging</r><r ri="174">Lesson 3</r><r ri="175">In Lesson 3, students learned about functions and for loops. What was the dance you did together? How would students use for loops to write the function for the dance? 
+</r><r ri="176">Review coding concepts from Lessons 3 to 6
+</r><r ri="177">Lesson 4</r><r ri="178">Lesson 4  |  Think Logically: Conditional Code</r><r ri="179">Lesson 4  |  Think Logically: Conditional Code</r><r ri="18">Students now complete an activity that expands on the discussion and lets them explore and apply the concept. These activities are designed to deepen understanding  of the coding concept and to foster communication and teamwork. The activities also leverage iPad to capture student work, which can be used for formative assessment.
+</r><r ri="180">Lesson 4  |  Think Logically: Conditional Code</r><r ri="181">Lesson 4  |  Think Logically: Conditional Code</r><r ri="182">Lesson 4  |  Think Logically: Conditional Code</r><r ri="183">Lesson 4  |  Think Logically: Conditional Code</r><r ri="184">Milestone Project (4 class periods)
+</r><r ri="185">Other Materials (5 minutes)
+</r><r ri="186">Introduction (5 minutes)
+</r><r ri="187">Introduction (5 minutes)
+</r><r ri="188">Introduction (5 minutes)
+</r><r ri="189">Introduction (5 minutes)
+</r><r ri="19">At this point in the lesson, students will apply the coding concept and actually code in Swift Playgrounds. In the  app, students are guided through puzzles as they learn  to code. The list of coding skills students will develop from completing the puzzles is included to give you insight into their experiences with the app. Answer keys are also provided so you can give additional support if needed.
+</r><r ri="190">Review (5 minutes)
+</r><r ri="191">Lesson 5</r><r ri="192">Lesson 5  |  Think Again and Again: While Loops</r><r ri="193">Lesson 5  |  Think Again and Again: While Loops</r><r ri="194">Lesson 5  |  Think Again and Again: While Loops</r><r ri="195">Lesson 5  |  Think Again and Again: While Loops</r><r ri="196">Review (5 minutes)
+</r><r ri="197">Review (5 minutes)
+</r><r ri="198">Lesson 6</r><r ri="199">Lesson 6  |  Think the Same Idea: Algorithms</r><r ri="2">Now assign each group one of the logical operators. They can use any combination of their original three conditions to create their new conditional statement with an operator. Have the groups look through their photos again and create a new page in their album of photos that satisfy this new conditional statement.
+</r><r ri="20">Many coding concepts apply to other subjects, like science and math. Teachers can easily incorporate these concepts  into their everyday lessons. In this section, you&#x2019;ll find a few ideas for how to reinforce your students&#x2019; understanding  of coding concepts while they learn new math, science, English, art and music concepts.</r><r ri="200">Lesson 6  |  Think the Same Idea: Algorithms</r><r ri="201">Lesson 6  |  Think the Same Idea: Algorithms</r><r ri="202">Lesson 6  |  Think the Same Idea: Algorithms</r><r ri="203">Lesson 7</r><r ri="204">Lesson 8</r><r ri="205">Lesson 8  |  Think Like an Architect: Types</r><r ri="206">Lesson 8  |  Think Like an Architect: Types</r><r ri="207">Lesson 8  |  Think Like an Architect: Types</r><r ri="208">Lesson 8  |  Think Like an Architect: Types</r><r ri="209">Lesson 8  |  Think Like an Architect: Types</r><r ri="21">You can use the rubric provided here to assess student work. The rubric in is embedded in a gradebook to help you easily track progress.
+</r><r ri="210">Lesson 9</r><r ri="211">Photo collage
+</r><r ri="212">App that lets you create a photo collage
+</r><r ri="213">Ask students to create a photo album using any photo collage app or any presentation app like Keynote, creating a section or a page for each condition. They shouldn&#x2019;t label their conditions yet.
+</r><r ri="214">Have each student write two questions on separate pieces of paper for a condition, for example, &#x201C;Is a rectangle&#x201D; or &#x201C;Starts with the letter C.&#x201D; Then put the bits of paper in a hat.
+</r><r ri="215">This course leverages apps available on iPad. We&#x2019;ve offered a few suggestions within the lessons, but feel free to use any app that can accomplish the task. Make sure your students are familiar with the apps you&#x2019;ve chosen. Students will use the following types of apps:
+</r><r ri="216">Think ahead: In your algorithm for tallest person, how would a computer recognize that Jacob and Vera are names?
+</r><r ri="217">For example, &#x201C;If [person is already a member of the coding club], then [remind them the next meeting is Friday], else [give them a flyer].&#x201D;
+</r><r ri="218">Boolean: A value that can only be either true or false. So for the conditional statement to run, we have to tell the computer what the possible outcomes are. So in our example, we set the Boolean to be true &#x201C;if already a member&#x201D; and false &#x201C;if not already a member.&#x201D;
+</r><r ri="219">As a class, brainstorm examples of functions you do in everyday life. Think about ones you&#x2019;ve already used throughout this class. Write these on the board or on iPad to display.
+</r><r ri="22">Here you&#x2019;ll get examples you could use to foster your discussion or to help students understand what they should be doing.
+</r><r ri="220">Start a discussion with students. Ask them if they were successful? Did they leave out important directions?
+</r><r ri="221">Why is it important not to have any bugs, even if they are tiny? What are examples of tiny bugs that don&#x2019;t prevent something from working and bugs that could result in a disaster?
+</r><r ri="222">Use books that relate to the everyday topics in the Introduction of each lesson as a hook for students.
+</r><r ri="223">Get an introduction to computer science
+</r><r ri="224">Science
+</r><r ri="225">Seeking Seven Gems</r><r ri="226">Activity: HIDE AND SEEK (15 to 20 minutes)
+</r><r ri="227">Activity: hide and seek again (35 to 40 minutes)
+</r><r ri="228">Generalizing a Function</r><r ri="229">When and how would you use these different data types when designing a building?
+</r><r ri="23">Get tips that could help you facilitate or enhance the lesson.
+</r><r ri="230">You&#x2019;ll now be Siri, deciding when or when not to say, &#x201C;Siri says,&#x201D; when giving the commands written by your students. After a few rounds, let  a student be Siri. Play until there is a winner.
+</r><r ri="231">This book is designed for teachers to use with students in middle school and above. The materials were created to be flexible and usable in any learning environment. And they were designed to include a breadth of optional support so that any teacher, with or without coding experience, can teach this course.
+</r><r ri="232">Better understand what skills your students will gain from their experience in Swift Playgrounds.
+</r><r ri="233">Have students summarize their experience with Swift Playgrounds. 
+</r><r ri="234">Students summarize their experience with Swift Playgrounds. 
+</r><r ri="235">Students summarize their experience with Swift Playgrounds. 
+</r><r ri="236">Students summarize their experience with Swift Playgrounds. 
+</r><r ri="237">Students summarize their experience with Swift Playgrounds. 
+</r><r ri="238">Students summarize their experiences with Swift Playgrounds. 
+</r><r ri="239">Students summarize their experiences with Swift Playgrounds. 
+</r><r ri="24">You&#x2019;ll find simple Keynote slides you can use during class to guide your students through the lessons. Add any of the Why, Examples, Tips, and Did You Know information to the speaker notes to help guide you through the lesson. Use the Keynote presentations as is, as templates you can customize, or simply as inspiration for how to make the lesson your own. 
+</r><r ri="240">Students summarize their experiences with the app. 
+</r><r ri="241">Students summarize their experiences with Swift Playgrounds. 
+</r><r ri="242">Have students summarize their experiences with Swift Playgrounds. 
+</r><r ri="243">Students summarize their experiences with Swift Playgrounds. 
+</r><r ri="245">Boolean
+</r><r ri="246">What are conditions, conditional coding, Boolean, and logical operators? How are they related?
+</r><r ri="247">Boolean: A value that can only be either true or false. 
+</r><r ri="248">In the Conditional Code chapter, students will master the chaos of randomly altered puzzles. Now they&#x2019;ll use Swift Playgrounds to complete the puzzles in the list at left. They&#x2019;ll use if statements to determine when to take an action and when to change course. Then moving on to the Logical Operators chapter, they&#x2019;ll modify or combine Boolean conditions using logical operators, allowing their character to navigate complex puzzles with ease.
+</r><r ri="249">Describe what conditional code, booleans, and logical operators are
+</r><r ri="25">Were students able to use the process they developed to help them with the debugging task?
+</r><r ri="250">Demonstrate the use of conditional code, booleans, and logical operators in an everyday situation
+</r><r ri="251">Code using conditional code, booleans, and logical operators
+</r><r ri="252">Your students get to tell you what to do! As a class, they should come up with ideas for what you should do. Examples might be to draw a smiley face on the board or do five jumping jacks. Let your students decide on the action without telling you what the action is. Once they&#x2019;ve decided, they can shout out step-by-step directions to you. How were you successful? How could you improve the directions?
+</r><r ri="253">Swift Playgrounds
+</r><r ri="254">About Swift Playgrounds</r><r ri="255">A key requirement of this Swift Playgrounds course is that students create a portfolio of their work using an app like Seesaw. For each lesson, ask students to upload their work from the activity along with photos or videos of their coding from the app. Seesaw includes features like voice recording and mark-up tools for students to reflect on their work. This allows you to track student progress and use their portfolios for assessment. 
+</r><r ri="256">Learn more about Swift Playgrounds.
+</r><r ri="257">Swift Playgrounds: Commands
+</r><r ri="258">Students should upload their video directions and photos or videos of their coding from Swift Playgrounds to their portfolio and record notes about what they learned.
+</r><r ri="259">Students will now use Swift Playgrounds and complete the puzzles with checkmarks in the list at left. As they complete the puzzles, remind them  to take videos or photos of their coding for their journals.
+</r><r ri="26">What tips would students give a coder to help prevent bugs?
+</r><r ri="260">Swift Playgrounds: Commands
+</r><r ri="261">Students upload their interactive videos and photos or videos of their coding from Swift Playgrounds to their portfolio and add notes about what they learned about debugging.
+</r><r ri="262">Students will now use Swift Playgrounds and complete the puzzles with checkmarks in the list at left. As they complete the puzzles, remind them  to take videos or photos of their coding for their journals.
+</r><r ri="263">Swift Playgrounds: Functions and For Loops
+</r><r ri="264">Students should upload the document with the pattern they created, along with their descriptions and photos or videos of their coding from Swift Playgrounds to their portfolio. They should then record notes about what they learned.
+</r><r ri="265">Swift Playgrounds: For Loops
+</r><r ri="266">Swift Playgrounds: Teacher Guide | Review and Reflect </r><r ri="267">Swift Playgrounds: Conditional Code and Operators
+</r><r ri="268">Students should upload their photo album and photos or videos of their coding from Swift Playgrounds to their portfolios and record notes about what they learned.
+</r><r ri="269">Swift Playgrounds: While Loops
+</r><r ri="27">How do loops help with coding? How do they help with everyday life?
+</r><r ri="270">Students should upload the presentation in which they compared their two videos, along with photos or videos of their coding from Swift Playgrounds to their portfolios. They should then record notes about what they learned.
+</r><r ri="271">Swift Playgrounds: Algorithms
+</r><r ri="272">Students should upload the document in which they documented their algorithms and their processes, along with photos or videos of their coding from Swift Playgrounds to their portfolios. They should then record notes about what they learned.
+</r><r ri="273">Swift Playgrounds: For Loops
+</r><r ri="274">Swift Playgrounds: Types
+</r><r ri="275">Swift Playgrounds: Parameters
+</r><r ri="276">Students upload their Pages files and coding screens from Swift Playgrounds to their portfolios and add notes about what they learned about parameters.
+</r><r ri="277">Swift Playgrounds: World Building
+</r><r ri="278">Students should review the World Building chapter in Swift Playgrounds and think about what features they can design in their own worlds.
+</r><r ri="279">Students should first go through the World Building chapter to review their coding skills and to see how they can build their own worlds. Then using Swift Playgrounds, they&#x2019;ll complete the puzzles in the list at left, placing tiles, portals, gems, and more to shape the puzzle world. There&#x2019;s no end to what they can create!
+</r><r ri="28">Students should also draw upon their coding knowledge to come up with their algorithms. They can invent their own pseudocode to write their algorithms with as much coding terminology as possible. They can use an app like Notability or Pages to help them brainstorm and document their process.
+</r><r ri="280">What did students learn about logical thinking for humans and for computers? Is it easier or harder for a human or a computer?</r><r ri="281">Do ideas differ between humans and computers? Why or why not?
+</r><r ri="282">How does thinking like a computer compare to thinking like a human?
+</r><r ri="283">Let&#x2019;s think again and again: How does thinking like a computer differ from thinking like a human?
+</r><r ri="284">Pseudocode is an informal description of code or a concept that&#x2019;s intended for human reading.</r><r ri="285">Challenge students to create an algorithm for an invention, like a self-driving car.
+</r><r ri="286">Learn how to use the portfolio app Seesaw
+</r><r ri="287">Seesaw
+</r><r ri="288">Make sure Seesaw is installed on each student&#x2019;s iPad.
+</r><r ri="289">Seesaw
+</r><r ri="29">How did using variables help students with the app?
+</r><r ri="290">Seesaw
+</r><r ri="291">Seesaw
+</r><r ri="292">Create a community with peer-to-peer review in Seesaw
+</r><r ri="293">Seesaw
+</r><r ri="294">Seesaw
+</r><r ri="295">Seesaw
+</r><r ri="296">Seesaw
+</r><r ri="297">Create a community with peer-to-peer review in Seesaw
+</r><r ri="298">Seesaw
+</r><r ri="299">Seesaw
+</r><r ri="3">Swift Playgrounds is a free iPad app from Apple that helps anyone learn coding fundamentals by writing in Swift.
+</r><r ri="30">Can students now spot stories that may have been written with the help of a NewsBot? Give them a few minutes to look at news stories and report on their findings. The class can then vote to see if they agree when a NewsBot wrote the story.
+</r><r ri="300">Seesaw
+</r><r ri="301">Seesaw
+</r><r ri="302">Create a community with peer-to-peer review in Seesaw
+</r><r ri="303">Logical Labyrinth</r><r ri="304">Start a discussion with students, asking them, &#x201C;What did you do with iPad?&#x201D; and &#x201C;How do you think it worked?&#x201D; 
+</r><r ri="305">Start a discussion with students, asking how similar the partners&#x2019; drawings were. Can they think of ways to make them look more alike?
+</r><r ri="306">Have the class play a game of Siri Says by asking students to write their own commands using parameters.
+</r><r ri="307">Ask students to upload their photos.
+</r><r ri="308">Using the iPad camera, ask all students to take a selfie.
+</r><r ri="309">How many times does Primary Colors repeat? Ask students to describe their pattern in one step. Now they&#x2019;ve written a for loop.
+</r><r ri="31">If we use a computer program to help us construct the building, we have to be very specific. We need to define the type. In programming, we use many different data types, such as:
+</r><r ri="310">Think ahead: Ask students how they can stop a for loop.
+</r><r ri="311">Students will review the coding concepts they&#x2019;ve learned so far. Ask students what coding concepts they&#x2019;ve learned and define them as a class.
+</r><r ri="312">Ask students to think about games they play; are conditional decisions needed? What are they?
+</r><r ri="313">Now ask students to think about if they wanted to do that dance at the school dance, but they didn&#x2019;t know what song was going to come on. How would they know when to stop dancing when the song ended? 
+</r><r ri="314">Algorithms are a foundational coding concept. All the coding concepts students have learned so far can be used within algorithms. Algorithm lessons are a good spot to pause after and review before moving on. Ask students what coding concepts they&#x2019;ve learned and to define them as a class.
+</r><r ri="315">Ask students to finish the initialization by drawing the building type using a drawing app like Notes or Art Set.
+</r><r ri="316">Ask students to name an app they use every day. Can they think of functions in the app that take parameters? 
+</r><r ri="317">Now, for each of the examples, ask students what kinds of questions, if any, might someone who&#x2019;s been told to perform that function have?
+</r><r ri="318">Before you start the project, students should review the coding concepts they&#x2019;ve learned so far. Ask them what coding concepts they&#x2019;ve learned  and define them as a class activity.
+</r><r ri="319">Ask students to create an algorithm for drawing a simple picture.
+</r><r ri="32">In this course, students will learn the basics of coding and begin to identify the skills and effort needed to code their own apps or games.
+</r><r ri="320">Twin Peaks</r><r ri="321">What are some other everyday functions? What are those functions  made up of? Are there maybe functions within those steps? How far  can students break down what the function is?
+</r><r ri="322">Crank Up and Down</r><r ri="323">Random Gems Everywhere</r><r ri="325">Answer key
+</r><r ri="326">Key Vocabulary
+</r><r ri="327">Key Vocabulary
+</r><r ri="328">Key Vocabulary
+</r><r ri="329">What are the key steps to fixing something? How do you define a problem?
+</r><r ri="33">Debugging is the process of identifying and fixing the error.</r><r ri="330">Key Vocabulary
+</r><r ri="331">Key Vocabulary
+</r><r ri="332">Key Vocabulary
+</r><r ri="333">Key Vocabulary
+</r><r ri="334">Key Vocabulary
+</r><r ri="335">Key Vocabulary
+</r><r ri="336">Key Vocabulary
+</r><r ri="337">In a given puzzle, how many moves did the character make? And how many commands did students write?
+</r><r ri="338">As a class, think of some dance moves. Have students describe what those dances are, or better yet, have students perform them. How did they know what to do? 
+</r><r ri="339">What&#x2019;s the fewest number of moves it took to complete the challenge?
+</r><r ri="34">After game is over, start a discussion with students, asking them to display some examples of the commands. Were the function and parameters identified correctly? How did adding parameters affect the commands? Was the game more or less interesting for players because you used parameters?
+</r><r ri="340">What&#x2019;s the fewest number of moves it took to complete the challenge?
+</r><r ri="341">Moving Further Forward</r><r ri="342">Discuss whether there are functions that don&#x2019;t need parameters.
+</r><r ri="343">Initialize a new type of species in a biodiversity lesson.
+</r><r ri="344">Tap to view  the rubric.</r><r ri="345">Students can spend the remaining class period updating their journals. Create a community with your class by encouraging students to view their peers&#x2019; work and like and comment appropriately.</r><r ri="346">Students can spend the remaining class period updating their journal. Create a community with your class by encouraging students to view their peers&#x2019; work and like and comment appropriately.
+</r><r ri="347">Creating a New Function</r><r ri="348">Creating Smarter While Loops</r><r ri="349">Pick one example and have students brainstorm the pieces of information they might need. Record these on the board or on iPad for the class to see. As you write, follow naming conventions for Swift. Since we&#x2019;re creating a NewsBot, encourage students to start thinking in code and how they would communicate this to a robot.
+</r><r ri="350">Initialization is the act of creating a new instance of a type, which includes setting initial values for any properties of the type.</r><r ri="351">Work as a class to create an album you can use for attendance or for  other purposes.
+</r><r ri="352">You can create an album and share it with the class.
+</r><r ri="353">When and why should you create functions and loops?
+</r><r ri="354">What other functions would or could you want to create in the app?
+</r><r ri="355">In programming, it&#x2019;s sometimes easier to combine existing commands to create a new behavior. This process is called composition. When you name the new behavior so you can use it again in the future, you&#x2019;ve created a function. When you tell a program to run a function, you are &#x201C;calling&#x201D; it. So if somebody said, &#x201C;Do the Macarena,&#x201D; they&#x2019;re calling the function &#x201C;Macarena.&#x201D;
+</r><r ri="356">Students will create an algorithm for how to determine who the tallest person is in the class.
+</r><r ri="357">As architects, students will create their own type of building. Architects use blueprints to plan and illustrate the design of the building. In programming, we use code.
+</r><r ri="358">Create Your World</r><r ri="359">Have students create a beat or rhythm and use code to communicate to someone else how to play their song.
+</r><r ri="36">Variable</r><r ri="360">Have students created shortcuts or ways that made doing something easier in other situations? Are those functions?
+</r><r ri="361">Placing Two Characters</r><r ri="362">In the app, students also learned to nest loops, where you place one loop inside another. Can they think of instances in everyday life where they  would nest loops? What would be the outer and inner loops?
+</r><r ri="363">Place an Expert</r><r ri="364">Initializing Your Expert</r><r ri="365">Train Your Expert</r><r ri="366">Two Experts</r><r ri="367">Demonstrate the use of commands and sequences in an everyday situation
+</r><r ri="368">Demonstrate the use of debugging in an everyday situation
+</r><r ri="369">Demonstrate the use of functions and for loops in an everyday situation
+</r><r ri="37">Each student chooses a news story or sporting event for a short article.  Ask students to brainstorm four to six variables using Pages, and then write two to three sentences using the variables to create a story so NewsBot can fill in the variables. Then tell students to change the font color of the variable names in the story. Do some names work better than others?
+</r><r ri="370">What about in everyday life? What kinds of conditional decisions do students make every day?
+</r><r ri="371">Demonstrate the use of while loops in an everyday situation
+</r><r ri="372">Demonstrate the use of algorithms in an everyday situation
+</r><r ri="373">Demonstrate the use of types and initialization in an everyday situation
+</r><r ri="374">Do types in everyday life differ from types in coding? Why or why not?
+</r><r ri="375">Demonstrate the use of parameters in an everyday situation
+</r><r ri="376">Activity: who&#x2019;s the tallest? (30 to 45 minutes)
+</r><r ri="377">What codes did they use most often?
+</r><r ri="378">Think ahead: How do the codes you&#x2019;ve learned so far work together?
+</r><r ri="379">What codes did they use most often?
+</r><r ri="38">What is a variable?
+</r><r ri="381">Coding Skills
+</r><r ri="382">Coding
+</r><r ri="383">Learn coding together.
+</r><r ri="384">Coding is telling a computer what to do.
+</r><r ri="385">Think ahead: Debugging can take time. What are some things students can think of when coding that could save them time?
+</r><r ri="386">As students complete the puzzles, remind them to take videos or photos  of their coding for their journals. 
+</r><r ri="387">Practice Coding (20 to 25 minutes)
+</r><r ri="388">As students complete the puzzles, remind them to upload photos or videos of their coding for their portfolios.
+</r><r ri="389">AND (&amp;&amp;)&#x2014;The AND operator results in true only if two statements  are true; in coding, the statements are called operands; otherwise, the operator results in false.
+</r><r ri="39">Students should pair up and test to see if their stories are reusable with different data. One student asks the other to provide the information for each variable and fills in his or her story. Then they switch. Do they now have two complete stories that make sense?
+</r><r ri="390">As students complete the puzzles, remind them to upload photos or videos of their coding for their portfolios.
+</r><r ri="391">Condition: Something you test that results in true or false. For example, you&#x2019;re handing out flyers to recruit new members for the coding club. When you see a student, decide:
+</r><r ri="392">So now you've defined a condition for you to recruit new members to the coding club.</r><r ri="393">As students complete the puzzles, remind them to upload photos or videos of their coding for their portfolios.
+</r><r ri="394">As students complete the puzzles, remind them to upload photos or videos of their coding for their portfolios.
+</r><r ri="395">Practice Coding (15 to 20 minutes)
+</r><r ri="396">As students complete the puzzles, remind them to upload photos or videos of their coding for their portfolios.
+</r><r ri="397">As students complete the puzzles, remind them to upload photos or videos of their coding for their portfolios.</r><r ri="398">As students complete the puzzles, remind them to upload photos or videos  of their coding for their portfolios.
+</r><r ri="399">As students complete the puzzles, remind them to upload photos or videos of their coding for their portfolios.
+</r><r ri="4">Technology has a language. It&#x2019;s called code. And we believe coding is an essential skill. Learning to code teaches you how to solve problems and work together  in creative ways. And it helps you build apps that bring your ideas to life. We think everyone should have the opportunity to create something that can change the world. So we&#x2019;ve designed a new approach to coding  that lets anyone learn, write, and teach it.</r><r ri="40">Start a discussion with students, asking if the stories were reusable with different data. Did any variable names work better than others? Why or why not?
+</r><r ri="400">As students complete the puzzles, remind them to upload photos or videos of their coding for their portfolios.</r><r ri="401">Compare how math functions are similar to coding functions.
+</r><r ri="402">Using the QR code, have students log in to the class you&#x2019;ve set up.
+</r><r ri="403">Developers write code to build their own apps and games.</r><r ri="404">Code using commands and sequences
+</r><r ri="405">Think ahead: What could students do when their code doesn&#x2019;t work?
+</r><r ri="406">Your students were just telling you commands within a sequence, which is what you need to do when you write code.
+</r><r ri="407">Debug with code
+</r><r ri="408">Sometimes, code might not run as intended, so we need to fix (or debug) it.
+</r><r ri="409">A bug is an error in  your code. 
+</r><r ri="41">When we program a computer, instead of using boxes we use something called a variable. Variables are very similar to boxes.
+</r><r ri="410">Code using functions and for loops
+</r><r ri="411">For loop: Runs a block of code over and over for a set number of times.
+</r><r ri="412">Conditional code
+</r><r ri="413">Think Logically: Conditional Code</r><r ri="414">Conditional code: A block of code that will run only if something is true. This can be expressed as an if-then statement. It can also include an else block, which runs if all conditions in the if statement are false.
+</r><r ri="415">What kinds of decisions did their code make using the if statement?
+</r><r ri="416">Think ahead: How can conditional code work with loops?
+</r><r ri="417">Conditional Code</r><r ri="418">Looping Conditional Code</r><r ri="419">Conditional code: A block of code that will run only if something is true.  </r><r ri="42">A variable has both a label (a name) and contents (a value).
+</r><r ri="420">Code using while loops
+</r><r ri="421">Running Code While&#x2026;</r><r ri="422">They&#x2019;d use a conditional code: If song plays, then dance. Or more clearly, with a while loop: While the song plays, dance.
+</r><r ri="423">While loop: A loop that runs a block of code as long as a given condition is true. When the condition is false, the loop stops running.</r><r ri="424">Code using algorithms
+</r><r ri="425">Code using types and initialization
+</r><r ri="426">How was the code they wrote in the app similar to or different from the code they wrote for their building?
+</r><r ri="427">Code using parameters
+</r><r ri="428">Analyze lyrics and describe them using code. Are there parts that loop or repeat? Are there parts that can be a function?
+</r><r ri="429">Other creation apps like GarageBand
+</r><r ri="43">A variable&#x2019;s value or contents can be found by finding the variable with the correct name or label.
+</r><r ri="430">Land of Bounty</r><r ri="432">Describe what debugging is
+</r><r ri="433">Debugging
+</r><r ri="434">Think Like a Detective: Debugging</r><r ri="435">Did their process for debugging differ from how they would fix something? How so?
+</r><r ri="436">What is debugging?
+</r><r ri="437">Students will develop their own debugging process.
+</r><r ri="438">Discuss how the debugging process is part of the scientific method.
+</r><r ri="439">Activity: debug like a pro (15 to 20 minutes)
+</r><r ri="44">A variable is a named container that stores a value. The value can change over time. </r><r ri="440">Better understand the goal of a discussion or  an activity.
+</r><r ri="441">Understand the goals of this class
+</r><r ri="442">Stash Sweep</r><r ri="443">Student Work Examples
+</r><r ri="444">Students work in pairs to come up with a process to fix something.
+</r><r ri="445">How much less work or fewer steps did it take to write the pattern?
+</r><r ri="446">Parameter: The ability to provide extra information for a function to do its work.
+</r><r ri="447">Corners of the World</r><r ri="448">An algorithm is a step-by-step set of rules or instructions.
+</r><r ri="449">Play a couple rounds of the I Spy game. In the game, a spy chooses an object, then describes only one part of it to the players. The players then have to look around their environment and guess what the spy saw. A student who guesses correctly gets to be the next spy. As the game progresses, guide students to use statements that focus on only one aspect of an object. 
+</r><r ri="45">Describe what variables are
+</r><r ri="450">Loop Jumper</r><r ri="451">Loop Jumper</r><r ri="452">Students will take pictures of items in the classroom that could be possible outcomes of a condition.
+</r><r ri="453">Determining possible outcomes</r><r ri="454">Act on the outcome</r><r ri="455">It Takes Two</r><r ri="457">Developer
+</r><r ri="458">A few small objects for hiding
+</r><r ri="459">Have students hide a small object in or near the classroom.
+</r><r ri="46">Demonstrate the use of variables in an everyday situation
+</r><r ri="460">What decisions did they have to make? What were their thought processes when trying to figure out what the spy saw? To play I Spy, students were thinking in terms of conditions.
+</r><r ri="461">Start with a question</r><r ri="462">Reach for the Stairs</r><r ri="463">Condition: Something you test that results in true or false.
+</r><r ri="464">Presentation app with video upload capability
+</r><r ri="465">How did they combine for loops and if statements? Why?
+</r><r ri="466">Analyze characters from books with if-then statements.  If the character did or didn&#x2019;t do something, what do students predict might happen?
+</r><r ri="467">Boxed In</r><r ri="468">Unlike a box, a variable&#x2019;s name cannot change.
+</r><r ri="469">Practice
+</r><r ri="47">Code using variables
+</r><r ri="470">Practice (15 to 20 minutes)
+</r><r ri="471">Portal Practice</r><r ri="472">Bug Squash Practice</r><r ri="473">Portal Practice</r><r ri="474">Bug Squash Practice</r><r ri="475">Practice (15 to 20 minutes)
+</r><r ri="476">Practice (15 to 20 minutes)
+</r><r ri="477">Practice (30 to 45 minutes)
+</r><r ri="478">Practice (30 to 45 minutes)
+</r><r ri="479">Practice (30 to 45 minutes)
+</r><r ri="48">Swift Playgrounds: Variables
+</r><r ri="480">Practice (30 to 45 minutes)
+</r><r ri="481">Practice (30 to 45 minutes)
+</r><r ri="482">Practice (30 to 45 minutes)
+</r><r ri="483">Practice (One class period)
+</r><r ri="484">Cross-Curricular Ideas</r><r ri="485">Inspiration</r><r ri="486">Inspiration</r><r ri="487">The contents can change&#x2014;simply replace the contents with something else.
+</r><r ri="488">The value or contents can change. Simply replace them with something else.
+</r><r ri="489">Journal (10 to 15 minutes)
+</r><r ri="49">Think Like a NewsBot: Variables</r><r ri="490">Reflection (10 to 15 minutes)
+</r><r ri="491">Reflection (10 to 15 minutes)
+</r><r ri="492">Journal (10 minutes)
+</r><r ri="493">Reflection (10 to 15 minutes) 
+</r><r ri="494">Reflection (10 to 15 minutes)
+</r><r ri="495">Introduction (10 minutes)
+</r><r ri="496">Reflection (10 to 15 minutes)
+</r><r ri="497">Introduction (10 minutes)
+</r><r ri="498">Reflection (10 to 15 minutes)
+</r><r ri="499">Journal (10 minutes)
+</r><r ri="5">You can use this book in a stand-alone coding class or as part of any introduction to coding program. Lessons are designed for 45- to 60-minute class periods, and some span multiple class periods. A suggested amount of time needed to complete each section in a lesson is included throughout the guide. So if you teach &#x200B;a less-structured class, such as an after-school program, you can divide up &#x200B;the lesson. 
+</r><r ri="50">Students will create NewsBot, a robot that can automatically write a short article about a news or sporting event. In order for NewsBot to do its job, it needs to know the pieces of information&#x2014;otherwise known as variables&#x2014;about the story. Students will write short, reusable stories using variables.
+</r><r ri="500">Reflection (10 to 15 minutes)
+</r><r ri="501">Introduction (10 to 15  minutes)
+</r><r ri="502">Reflection (10 to 15 minutes)
+</r><r ri="503">Introduction (10 minutes)
+</r><r ri="504">Reflection (10 to 15 minutes)
+</r><r ri="505">Introduction (10 minutes)
+</r><r ri="506">Journal (10 minutes)
+</r><r ri="507">Activity: SELFIE TIME (15 to 20 minutes)&#13;</r><r ri="508">Reflection (15 to 20 minutes)
+</r><r ri="509">Activity: pattern maker (15 to 20 minutes)
+</r><r ri="51">Lesson 7  |  Think Like a NewsBot: Variables</r><r ri="510">Reflection (15 to 20 minutes)
+</r><r ri="511">Introduction (15 to 20 minutes)
+</r><r ri="512">Reflect on what&#x2019;s been learned using their portfolios
+</r><r ri="513">Reflect on what&#x2019;s been learned using the portfolios
+</r><r ri="514">Reflect on what&#x2019;s been learned using the portfolios
+</r><r ri="515">Goals for this class:
+</r><r ri="516">Defining Smarter Functions</r><r ri="517">Conditional Climb</r><r ri="519">Condition
+</r><r ri="52">Lesson 7  |  Think Like a NewsBot: Variables</r><r ri="520">Other apps you&#x2019;ve chosen for this course
+</r><r ri="521">Students should record what they hope to learn in this course.</r><r ri="522">Students then present their Explain Everything videos and discuss their process. What could they do to try to prevent the problem from happening?
+</r><r ri="523">Keynote slides
+</r><r ri="524">Activity
+</r><r ri="525">Activity: scavenger hunt (30 to 45 minutes)
+</r><r ri="526">Activity: NewsBot (35 to 40 minutes)
+</r><r ri="527">Activity: BE AN ARCHITECT (35 to 40 minutes)
+</r><r ri="528">Activity: SIRI SAYS (35 to 40 minutes)
+</r><r ri="529">The Shortest Route</r><r ri="53">Lesson 7  |  Think Like a NewsBot: Variables</r><r ri="530">The Shortest Route</r><r ri="531">Across the Board</r><r ri="532">How did the commands they wrote in the app compare to the video directions they made?
+</r><r ri="533">About the interactives</r><r ri="534">Interactive whiteboard
+</r><r ri="535">Interactive whiteboard app
+</r><r ri="536">Have students think about a digital game they play, then name a few commands in that game.
+</r><r ri="537">Composing a New Behavior</r><r ri="538">Branch Out</r><r ri="539">Hat or container to draw paper out of
+</r><r ri="54">Think ahead: Are there different types of variables?
+</r><r ri="540">Treasure Hunt</r><r ri="542">Composition
+</r><r ri="543">App for drawing or making patterns
+</r><r ri="544">Making Your Own Portals</r><r ri="545">They can edit their photos in the Photos app or if available, mark up the photo in another app like Notability, add their names, and so on.
+</r><r ri="547">Math
+</r><r ri="548">What do students know about thinking like an architect who is also a programmer?</r><r ri="549">Roll Right, Roll Left</r><r ri="55">Students upload their news story coding screens from Swift Playgrounds to their portfolio and add notes about what they learned about variables.
+</r><r ri="550">Roll Right, Roll Left</r><r ri="551">Collect, Toggle, Repeat</r><r ri="552">Two class periods&#13;</r><r ri="553">Two class periods&#13;</r><r ri="554">Two class periods&#13;</r><r ri="555">Two class periods&#13;</r><r ri="556">Two class periods&#13;</r><r ri="557">Two class periods&#13;</r><r ri="558">Describe what parameters are
+</r><r ri="559">What parameters did they use in the app?
+</r><r ri="56">Lesson 7  |  Think Like a NewsBot: Variables</r><r ri="560">Why are parameters useful?
+</r><r ri="561">Parameters</r><r ri="563">Parameter</r><r ri="564">What is a parameter?
+</r><r ri="565">iPad
+</r><r ri="566">iPad
+</r><r ri="567">iPad
+</r><r ri="568">iPad
+</r><r ri="569">iPad
+</r><r ri="57">Variables</r><r ri="570">iPad
+</r><r ri="571">iPad
+</r><r ri="572">iPad
+</r><r ri="573">iPad
+</r><r ri="574">iPad
+</r><r ri="575">iPad
+</r><r ri="576">iPad
+</r><r ri="577">Notes app
+</r><r ri="578">Logical operator  </r><r ri="579">Logical Operators</r><r ri="58">Now students will use Swift Playgrounds to complete the puzzles in the list at left. They&#x2019;ll use variables to keep track of how many gems they&#x2019;ve grabbed and switches they&#x2019;ve toggled, allowing them to solve a new set of puzzles. 
+</r><r ri="580">English language arts
+</r><r ri="581">Decision Tree</r><r ri="582">Spiral of NOT</r><r ri="583">Think Like a Computer: Commands and Sequences</r><r ri="584">Describe what commands and sequences are
+</r><r ri="586">Sequence 
+</r><r ri="587">What is a command and a sequence?
+</r><r ri="588">Students share their types, instance values, and drawings with the class. 
+</r><r ri="589">Drawing</r><r ri="59">Now as a class, think about apps students use every day. Where and when are variables used?
+</r><r ri="590">Drawing app
+</r><r ri="591">Think the Same Idea: Algorithms</r><r ri="592">Read the following pages to get an overview of the sections in each lesson and to learn about features that offer additional information and support.
+</r><r ri="593">Choosing the Correct Tool</r><r ri="594">Brainstorming and writing app
+</r><r ri="595">Let&#x2019;s brainstorm. How many different types of buildings can you think of? 
+</r><r ri="596">Adding a New Command</r><r ri="597">Adding a New Command</r><r ri="598">Build your own world using all the concepts you&#x2019;ve learned so far
+</r><r ri="599">Build a Loop</r><r ri="6">Ask students to write 5 to 10 commands in the Pages app using parameters. They should change the font color to identify the function and parameter, as they would in code. Be sure that the commands are doable in the context of a Siri Says game.
+</r><r ri="60">Lesson 7  |  Think Like a NewsBot: Variables</r><r ri="600">Have students choose a type of building, either real or imagined.
+</r><r ri="601">World Building</r><r ri="602">Building It All</r><r ri="604">Function
+</r><r ri="605">What is a function and a for loop?
+</r><r ri="606">Describe what functions and for loops are
+</r><r ri="607">Functions</r><r ri="608">Did You Know 
+</r><r ri="609">What do they know about giving directions and thinking like a computer?</r><r ri="61">Give them time to think of five to six variables to describe what their type of building looks like. These variables should not contain any values. Instead they should be descriptive of the value. Students should capture this work in an app like Notes or Pages.
+</r><r ri="610">What do they know about thinking like a detective?
+</r><r ri="611">What do they know about thinking like a NewsBot?</r><r ri="612">In the app, they learned about other types of operators. How could they use those to improve their NewsBot?
+</r><r ri="613">Using the NOT Operator</r><r ri="614">Using the Right Command</r><r ri="615">Using the Right Command</r><r ri="616">Using Loops</r><r ri="617">Using Loops</r><r ri="618">Using else if</r><r ri="619">Using Instances of Different Types</r><r ri="62">Add values next to the variables. This step describes a specific instance of the building type. In Swift terminology, we&#x2019;re initializing an instance of the Rocket House type. Students should indicate where they used string, int, and bool data types.
+</r><r ri="620">How to use this book 
+</r><r ri="621">When did they use for loops and while loops? How did they decide?
+</r><r ri="622">One class period
+</r><r ri="623">One class period&#13;</r><r ri="624">One class period&#13;</r><r ri="625">One class period&#13;</r><r ri="626">One class period&#13;</r><r ri="627">One class period&#13;</r><r ri="628">Which Way to Turn?</r><r ri="629">Which Way to Turn?</r><r ri="63">The drawing should reflect the variables and their values.
+</r><r ri="630">Teacher Guide</r><r ri="631">Pen and paper
+</r><r ri="632">Slotted Stairways</r><r ri="633">Turned Around</r><r ri="634">The Right Hand Rule</r><r ri="635">The Right-Hand Rule</r><r ri="636">Five class periods&#13;</r><r ri="637">Would some algorithms give the wrong answer? 
+</r><r ri="639">Command 
+</r><r ri="64">Students then find a partner and trade the text of their building types.  Each student should draw the other student&#x2019;s building type using the given variables and values. Remind them not to share pictures, as this might affect the outcome. Partners share their drawings with each other. How similar are the drawings?
+</r><r ri="640">How many commands did they write?
+</r><r ri="641">Commands</r><r ri="642">Issuing Commands</r><r ri="643">Commands</r><r ri="644">Issuing Commands</r><r ri="645">Keeping Track</r><r ri="646">Deactivating a Portal</r><r ri="647">Review and Reflect </r><r ri="648">Review and Reflect </r><r ri="649">Review and Reflect </r><r ri="65">Use variables and comparison operators to analyze  tables and graphs.
+</r><r ri="650">Review and Reflect </r><r ri="651">Review and Reflect </r><r ri="652">Review and Reflect </r><r ri="653">Review and Reflect </r><r ri="654">Describe what while loops are
+</r><r ri="655">Describe what algorithms are
+</r><r ri="656">Describe what types and initialization are
+</r><r ri="657">Checking for Equal Values</r><r ri="658">Overview 
+</r><r ri="659">Photo markup app
+</r><r ri="66">Challenge students to design a blueprint for a new creation using variables and types. 
+</r><r ri="660">Photo markup app
+</r><r ri="661">To the Edge and Back</r><r ri="662">To the Edge and Back</r><r ri="663">Reflection
+</r><r ri="665">String
+</r><r ri="666">Incrementing the Value</r><r ri="668">Call
+</r><r ri="669">Journal
+</r><r ri="67">Ask students to pick one type of building. What makes it unique? In other words, what are some specific properties of that particular type of building? 
+</r><r ri="670">Journal (Homework)
+</r><r ri="671">Journal (Homework)
+</r><r ri="672">Journal (Homework)
+</r><r ri="673">Journal (Homework)
+</r><r ri="674">Journal (Homework)
+</r><r ri="675">Journal (Homework)
+</r><r ri="676">Journal (Homework)
+</r><r ri="677">Journal (Homework)
+</r><r ri="678">Journal (Homework)
+</r><r ri="679">OBJECTIVE 
+</r><r ri="68">Download Seesaw from the App Store</r><r ri="680">OBJECTIVE 
+</r><r ri="681">OBJECTIVE 
+</r><r ri="682">OBJECTIVE 
+</r><r ri="683">OBJECTIVE 
+</r><r ri="684">OBJECTIVE 
+</r><r ri="685">OBJECTIVE 
+</r><r ri="686">OBJECTIVE 
+</r><r ri="687">OBJECTIVE 
+</r><r ri="688">OBJECTIVE 
+</r><r ri="689">OBJECTIVE 
+</r><r ri="69">String (text): A type that stores a series for characters, such as &#x201C;hello world.&#x201D; 
+</r><r ri="690">OBJECTIVE 
+</r><r ri="691">OBJECTIVE 
+</r><r ri="692">Floating Islands</r><r ri="693">Have students share their document with you via AirDrop or your preferred method. 
+</r><r ri="694">Checking for Switches</r><r ri="695">Round Up the Switches</r><r ri="696">Setting the Right Portal</r><r ri="697">Milestone Project</r><r ri="698">Conquering a Maze</r><r ri="699">Conquering a Maze</r><r ri="7">&#xA9; 2016 Apple Inc. All rights reserved. Apple, the Apple logo, AirDrop, AirPlay, GarageBand, iPad, Keynote, Pages, Safari, and Siri are trademarks of Apple Inc., registered in the U.S. and other countries. Swift is a trademark of Apple Inc. App Store is a service mark of Apple Inc., registered in the U.S. and other countries. Other product and company names mentioned herein may be trademarks of their respective companies.</r><r ri="70">Int (numbers): A type that stores an integer&#x2014;a number that has no decimal, such as 10 or -42.
+</r><r ri="700">Tips 
+</r><r ri="701">Algorithms</r><r ri="702">Algorithms</r><r ri="704">Algorithm
+</r><r ri="705">What is an algorithm and what is pseudocode?
+</r><r ri="706">Adjusting Your Algorithm</r><r ri="707">Adjusting Your Algorithm</r><r ri="708">Portal On and Off</r><r ri="709">About the lessons</r><r ri="71">Bool (true or false): A type that stores a value of either true or false.
+</r><r ri="710">You&#x2019;re Always Right</r><r ri="711">Bump Up the Value</r><r ri="712">Tap to download the gradebook.</r><r ri="714">Pseudocode</r><r ri="715">Writing app 
+</r><r ri="716">What were the types in the app?
+</r><r ri="717">Writing app
+</r><r ri="718">Writing app
+</r><r ri="72">The box&#x2019;s contents can be found by finding the box with the correct label.
+</r><r ri="720">Initialization
+</r><r ri="721">What is type and initialization?
+</r><r ri="722">Initialization</r><r ri="723">What did students initialize?
+</r><r ri="724">Checking This AND That</r><r ri="725">Checking This OR That</r><r ri="727">Nesting Patterns</r><r ri="728">Nesting Loops</r><r ri="729">Collect the Total</r><r ri="73">Students can use an interactive whiteboard app like Explain Everything or Educreations to document and capture their process.
+</r><r ri="730">Examples
+</r><r ri="731">Writing 
+</r><r ri="732">Looping All the Sides</r><r ri="733">Looping All the Sides</r><r ri="734">Welcome</r><r ri="735">Art and music
+</r><r ri="736">Think Again and Again: While Loops</r><r ri="737">What is a while loop and how does it differ from a for loop?
+</r><r ri="738">Getting Started</r><r ri="739">For Loops</r><r ri="74">Find examples of completed student work so you can see what the activities should look like. 
+</r><r ri="740">For Loops</r><r ri="741">While Loops</r><r ri="742">For Loop
+</r><r ri="743">While loop</r><r ri="744">Materials 
+</r><r ri="745">Materials 
+</r><r ri="746">Materials 
+</r><r ri="747">Materials 
+</r><r ri="748">Materials 
+</r><r ri="749">Materials 
+</r><r ri="75">Introduce Seesaw, the portfolio app they&#x2019;ll use throughout this course as their journal. Find teacher resources for Seesaw, including videos and tips here.
+</r><r ri="750">Materials 
+</r><r ri="751">Materials 
+</r><r ri="752">Materials 
+</r><r ri="753">Materials 
+</r><r ri="754">Materials 
+</r><r ri="755">Materials 
+</r><r ri="756">Materials 
+</r><r ri="758">Think Like an Architect: Types</r><r ri="76">Students will create video directions for someone to find a hidden object.
+</r><r ri="760">Bug 
+</r><r ri="761">Length
+</r><r ri="762">Length
+</r><r ri="763">Length
+</r><r ri="764">Length
+</r><r ri="765">Length
+</r><r ri="766">Length
+</r><r ri="767">Length
+</r><r ri="768">Length
+</r><r ri="769">Length
+</r><r ri="77">Each student should stand in one spot and use the iPad camera to record themselves giving directions for someone to find an object. The directions should start from where the student recording is standing.
+</r><r ri="770">Length
+</r><r ri="771">Length
+</r><r ri="772">Length
+</r><r ri="773">Length
+</r><r ri="775">Bool</r><r ri="776">Introduction
+</r><r ri="777">Introduction</r><r ri="778">Introduction</r><r ri="779">Introduction</r><r ri="78">Students then watch another student&#x2019;s video to try to find the hidden object.
+</r><r ri="780">Introduction</r><r ri="781">Introduction</r><r ri="782">Introduction</r><r ri="783">Presentation
+</r><r ri="784">Shapeshifter</r><r ri="786">Type
+</r><r ri="787">Types</r><r ri="79">Now have students swap videos and see if their partner can find the object. Were their directions successful? 
+</r><r ri="8">In groups of two or three, students should pick three questions out of the hat and take three to five pictures around the room to test the conditions.
+</r><r ri="80">Students will use their new coding skills to create a new video direction for someone to find an object, then compare and contrast it with the video they created in Lesson 1.
+</r><r ri="81">Say to students, &#x201C;Remember in Lesson 1 how you hid an object and made a video of directions for a partner to find it? Well, let&#x2019;s do it again. Hide an object in a different place and make a video of you giving directions for how to find the object. This time, use functions, for loops, and while loops  where you can.&#x201D;
+</r><r ri="82">Start a discussion with students, asking whether the algorithms worked. Which one seems most efficient? Would it work with 100 or 1000 people? If you wanted to find the shortest student, what would you change in your algorithm?
+</r><r ri="83">Create a game where students need to find the grammar error or bug in sentences.
+</r><r ri="84">Finding and Fixing Bugs</r><r ri="85">Finding and Fixing Bugs</r><r ri="86">Start a discussion with students, asking if there were instances where loops could have been used, but weren&#x2019;t. What language or words did students use? Did having to use loops this time make things easier? Were there cases where it was actually harder? 
+</r><r ri="87">They can add other effects, like a soundtrack they make in GarageBand.
+</r><r ri="88">NOT (!)&#x2014;The NOT operator results in true if the value is false, and vice versa. It effectively inverts the value. True becomes false, and false becomes true.
+</r><r ri="89">Gem Farm</r><r ri="9">Uniting Worlds</r><r ri="90">Gem Farm</r><r ri="91">Ask students to consider the pertinent pieces of information related to a sports event or a news story. What pieces of information might they need  to write a short article about the event?
+</r><r ri="92">Create a story to go with the world
+</r><r ri="93">In small groups, students should brainstorm their new-world designs and come up with ideas for a story or poem to go along with their world.
+</r><r ri="94">After each group creates their world, each student writes their own version of the story or poem for the world.
+</r><r ri="95">To complete the project, students can share the video of their story or poem from Swift Playgrounds using AirPlay.
+</r><r ri="96">Students should upload their videos and story or poem to Seesaw. Create a community with your class by encouraging students to view their peers&#x2019; work and like and comment appropriately.
+</r><r ri="97">Students have now learned all the coding concepts covered in Swift Playgrounds: Learn to Code 1. This last chapter, World Building, lets students combine all their skills to start building a puzzle world of their own. For their Milestone Project, students will spend a week of class time writing a story to go with their new puzzle world.
+</r><r ri="98">Write an adventure story together to strengthen students&#x2019; understanding of conditional code. Ask them to think about the sequence and add in details like parameters.
+</r><r ri="99">Once they&#x2019;ve written their stories, invite students to create a video of their world, showing how their character solves the puzzle.
+</r></rs></reftext>

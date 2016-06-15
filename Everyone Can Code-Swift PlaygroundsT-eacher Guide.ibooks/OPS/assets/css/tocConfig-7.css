@@ -1,0 +1,242 @@
+@namespace ibooks "http://www.apple.com/2011/iBooks";
+@font-face{
+  font-family: "MyriadSetOT-Semibold";
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("../fonts/Myriad%20Set%20Cyr%20Smbd.otf");
+}
+@font-face{
+  font-family: "MyriadSetPro-Thin";
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: condensed;
+  src: url("../fonts/MyriadSetPro-thin.ttf");
+}
+sup{
+	font-size: 67%;
+	vertical-align: 33%;
+}
+a.anchor{
+	-ibooks-layout-hint: anchor;
+	display: none;
+}
+a.pageShape{
+	-ibooks-layout-hint: anchor page shape;
+	display: none;
+}
+.pagebreak{
+	break-after: page;
+}
+div.multichoice{
+	list-style-type: upper-alpha;
+}
+.columnbreak{
+	break-after: column;
+}
+p, ul, ol{
+	margin: 0px;
+}
+a.shape{
+	-ibooks-layout-hint: shape;
+	display: none;
+}
+body{
+	white-space: pre-wrap;
+}
+.hide{
+	display: none;
+}
+sub{
+	font-size: 67%;
+	vertical-align: -10%;
+}
+a.attachment{
+	-ibooks-layout-hint: inline;
+	display: none;
+}
+table{
+	border-collapse: collapse;
+	white-space: pre-wrap;
+}
+.inlineblock{
+	display: inline;
+}
+a.page{
+	-ibooks-layout-hint: anchor page;
+	display: none;
+}
+.s1{
+	-ibooks-stroke: none;
+	box-shadow: none;
+	fill: none;
+	opacity: 1.000;
+	stroke: none;
+}
+.s2{
+	-ibooks-stroke: none;
+	box-shadow: none;
+	fill: #5ABEC1;
+	opacity: 1.000;
+	stroke: #4D4D4D;
+	stroke-linecap: butt;
+	stroke-linejoin: miter;
+	stroke-miterlimit: 4.0;
+	stroke-width: 0.5pt;
+}
+.s3{
+	fill: #F6F6EE;
+}
+.s4{
+	-ibooks-column-count: 1;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	vertical-align: top;
+}
+.s5{
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #444444;
+	font-family: "MyriadSetPro-Thin";
+	font-size: 300.00%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: auto;
+	letter-spacing: 0;
+	line-height: 1.00em;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s6{
+	-ibooks-list-text-indent: 0.00pt;
+	font-size: 400.00%;
+}
+.s7{
+	-ibooks-list-text-indent: 0.00pt;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #FFFFFF;
+	font-family: "MyriadSetOT-Semibold";
+	font-size: 233.33%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	hyphens: auto;
+	letter-spacing: 0;
+	line-height: 1.20em;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+}
+#textShape-104-div{
+	height: 52.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 1024.000pt;
+}
+#textShape-104-svg{
+	height: 52.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 1024.000pt;
+}
+#viewport-0-svg{
+	height: 227.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 830.000pt;
+}
+#textShape-104{
+	display: block;
+	height: 52.000pt;
+	left: 57.000pt;
+	position: absolute;
+	top: 289.000pt;
+	width: 1024.000pt;
+}
+#textShape-174{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+	display: block;
+	height: 372.000pt;
+	left: -5.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 1034.000pt;
+}
+#image-12{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+	display: block;
+	height: 1406.000pt;
+	left: 0.374pt;
+	position: absolute;
+	top: 163.047pt;
+	width: 1024.000pt;
+}
+#viewport-0{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+	display: block;
+	height: 227.000pt;
+	left: 539.000pt;
+	position: absolute;
+	top: 771.000pt;
+	width: 830.000pt;
+}
+#textShape-58{
+	display: block;
+	height: 221.000pt;
+	left: 608.000pt;
+	position: absolute;
+	top: 570.000pt;
+	width: 725.000pt;
+}
+#viewport-0-div{
+	height: 227.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 830.000pt;
+}

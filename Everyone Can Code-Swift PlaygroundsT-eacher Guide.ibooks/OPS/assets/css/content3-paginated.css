@@ -1,0 +1,99 @@
+@namespace ibooks "http://www.apple.com/2011/iBooks";
+#textShape-728{
+	-ibooks-line-hints: textShape-728 p url(../hints/content3-paginated.plist) 1 16;
+}
+#textShape-125{
+	-ibooks-line-hints: textShape-125 p url(../hints/content3-paginated.plist) 18 1;
+}
+#textShape-116{
+	-ibooks-line-hints: textShape-116 p url(../hints/content3-paginated.plist) 17 1;
+}
+#textShape-993{
+	-ibooks-line-hints: textShape-993 p url(../hints/content3-paginated.plist) 0 1;
+}
+#textShape-28{
+	-ibooks-line-hints: textShape-28 p url(../hints/content3-paginated.plist) 19 1;
+}
+@page ::nth-instance
+{
+	height: 748.0pt;
+	width: 1024.0pt;
+	::slot(textShape-62)
+	{
+		-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+		height: 818.000pt;
+		left: -8.000pt;
+		top: -35.000pt;
+		width: 1042.000pt;
+		z-index: 1;
+	}
+	::slot(textShape-63)
+	{
+		-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 false;
+		height: 378.000pt;
+		left: -9.000pt;
+		top: 370.000pt;
+		width: 1043.000pt;
+		z-index: 2;
+	}
+	::slot(textShape-993)
+	{
+		height: 20.000pt;
+		left: 836.000pt;
+		top: 715.000pt;
+		width: 137.000pt;
+		z-index: 3;
+	}
+	::slot(textShape-728)
+	{
+		height: 230.000pt;
+		left: 50.316pt;
+		top: 400.000pt;
+		width: 916.000pt;
+		z-index: 4;
+	}
+	::slot(framethumb-34)
+	{
+		-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+		height: 112.000pt;
+		left: 825.000pt;
+		top: 281.000pt;
+		width: 112.000pt;
+		z-index: 5;
+	}
+	::slot(textShape-116)
+	{
+		height: 45.000pt;
+		left: 50.000pt;
+		top: 292.000pt;
+		width: 808.000pt;
+		z-index: 6;
+	}
+	::slot(textShape-125)
+	{
+		height: 117.000pt;
+		left: 50.000pt;
+		top: 178.000pt;
+		width: 391.000pt;
+		z-index: 7;
+	}
+	::slot(image-10)
+	{
+		-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+		height: 40.000pt;
+		left: 934.000pt;
+		top: 292.000pt;
+		width: 40.000pt;
+		z-index: 8;
+	}
+	::slot(textShape-28)
+	{
+		height: 71.000pt;
+		left: 934.000pt;
+		top: 276.000pt;
+		width: 41.000pt;
+		z-index: 9;
+	}
+	-ibooks-positioned-slots: textShape-62, textShape-63, textShape-993, textShape-728, framethumb-34, textShape-116, textShape-125, image-10, textShape-28;
+}
+

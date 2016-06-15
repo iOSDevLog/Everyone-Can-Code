@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<reftext currentVersion="1.0" requiredVersion="0.5"><rs><r ri="1">Ask students how apps help us solve problems. The objective is to help them realize that apps can solve a problem or serve a purpose. 
+</r><r ri="10">Choose iOS from the Platform menu. Ask students to  add a series of numbers to the playground, then add comments that indicate what the numbers mean.
+</r><r ri="100">It&#x2019;s time now for some initial data. For each item in the list you created in step 3, add a value for each data item.
+</r><r ri="101">let total = 4 + (7 * 3)
+</r><r ri="102">Lesson 3: Strings 
+</r><r ri="103">Lesson 3  |  Strings</r><r ri="104">Lesson 3  |  Strings</r><r ri="105">Lesson 3  |  Strings</r><r ri="106">Lesson 3
+</r><r ri="107">Students should complete Lesson 3: Strings in the student guide. 
+</r><r ri="108">Here are a couple examples of how your list might look by the end of step 4:
+</r><r ri="109">Lesson 4: First App</r><r ri="11">For which code expression (Option 1 or Option 2) did  you think of more possibilities? Which code expression was more specific? How did that affect the number of different things the expression might mean?
+</r><r ri="110">Lesson 4  |  First App: Single Photo</r><r ri="111">Lesson 4  |  First App: Single Photo</r><r ri="112">Lesson 4: First App 
+</r><r ri="113">Lesson 4  |  First App: Single Photo</r><r ri="114">Lesson 4
+</r><r ri="115">Students should complete Lesson 4:  First App in the student guide.
+</r><r ri="116">What information do you and other fans want to know? Make a list of 5 to 10 information items you&#x2019;ll track in your program.
+</r><r ri="117">Students should complete Lesson 5: QuestionBot in the student guide.
+</r><r ri="118">let firstHitSong = " Party Tonight "
+</r><r ri="119">Show and hide error messages.
+</r><r ri="12">This Teacher Guide will help you bring App Development with Swift into the classroom. The lessons were designed to both highlight key coding concepts and to demonstrate how coding is a way of thinking that  can be applied and understood through everyday life scenarios.
+</r><r ri="120">Write code that will respond to the user&#x2019;s input with some interesting information, and put the code into the QuestionBot responseToQuestion function as you did in the QuestionAnswerer exercise. 
+</r><r ri="121">It&#x2019;s important that students keep to only three to five views (screens), depending on the complexity of their app. Focusing on a smaller number of views is better.
+</r><r ri="122">Because this code used good names, we know that this code calculates the duration of a video.
+</r><r ri="123">Think of a question that has a finite number of responses like &#x201C;In what month were you born?&#x201D;
+</r><r ri="124">In what month were you born? Responses could be the astrological sign or birthstone for that month or famous people born the same month.
+</r><r ri="126">Have students follow the steps below to create a program that holds the latest data about their favorite celebrities. 
+</r><r ri="127">Following the best practices you learned from the playground practice activity, turn the list into a list  of data names.
+</r><r ri="129">Students practice the concept through hands-on activities in the student guide, which include playgrounds and Xcode projects. 
+</r><r ri="13">Apply
+</r><r ri="130">Once students are comfortable working in playgrounds, have them try creating their own playgrounds following these steps: 
+</r><r ri="131">Learn more about Swift Playgrounds.
+</r><r ri="132">Swift Playgrounds Teacher Guide
+</r><r ri="134">Change values in a playground and view results.
+</r><r ri="135">Playground Basics</r><r ri="136">Playground Basics
+</r><r ri="137">Choose Playground from the File &gt; New menu.
+</r><r ri="138">Enter a name for the new playground. 
+</r><r ri="139">What surprised you most about using the playground? 
+</r><r ri="14">These activities are intended to extend the learning from the Swift playgrounds and Xcode projects and lessons. They give students a chance to apply the principles they&#x2019;ve learned to a new project or to modify work they already created.
+</r><r ri="140">What else do you wish a playground could do?
+</r><r ri="141">What calculations did you try when you were creating your own playground?</r><r ri="142">Playground&#13;</r><r ri="143">Which tasks could you achieve with a playground?
+</r><r ri="144">Copy and paste code between an Xcode project and a playground.
+</r><r ri="145">Information: What information might people want to have quick access to? Think of information that never or infrequently changes and could be represented as an image, for example, emergency information, your school schedule, or how to tie a bowtie or necktie. Later you might want to consider an app for information that does change, for example, local weather forecast, sports scores, the location of an open parking place.
+</r><r ri="146">Swift is a powerful and intuitive programming language created by Apple for building apps. It makes programming easier, more flexible, and more fun. Swift is not only great for getting you started with coding,  it&#x2019;s also super powerful. It&#x2019;s designed to scale from writing the simplest program, like &#x201C;hello world,&#x201D; to the world&#x2019;s most advanced software.
+</r><r ri="147">Consider modeling the following in software, then think about what the &#x201C;brain&#x201D; would need to do and what the interface would need to provide. Think of how simple games, like Rock, Paper, Scissors would be modeled in software. For example, if input is Paper, response is Scissors. Otherwise (else) response is Rock. What other simple games could you create or how could you model these examples to create a simple input -&gt; output game?&#13;</r><r ri="148">Remind students that this is a rough draft and not to  get bogged down with the details of exactly what a button might look like. They should focus on sketching their ideas in their app journals, which will become a storyboard for the app they&#x2019;re designing. 
+</r><r ri="15">Apply (30 minutes)
+</r><r ri="150">Key Vocabulary&#13;</r><r ri="151">Key Vocabulary&#13;</r><r ri="152">Key Vocabulary
+</r><r ri="153">Key Vocabulary
+</r><r ri="154">Key Vocabulary
+</r><r ri="155">Refer to a previously declared value by its name (Naming, Reuse).</r><r ri="158">Change the background color of a view.
+</r><r ri="159">Image view
+</r><r ri="16">Apply (30 minutes)
+</r><r ri="160">Now that students have added an image file to the Resources area of an Xcode project and displayed it as a view, challenge them to go through the steps in a new project without consulting the guide. Have them rename the project to something they care about and add an appropriate image.
+</r><r ri="161">What interaction would the user have on the first view? Does it answer the most pressing question they&#x2019;d have when they open the app?
+</r><r ri="162">As students create their views, have them write notes  on the side of each view explaining what will happen on that view. What is that view about? How does the user interact with it?
+</r><r ri="163">Draw arrows or use words to indicate how the views link together. What&#x2019;s the event that triggers the next action?
+</r><r ri="165">You&#x2019;re well on your way to creating a program about your favorite celebrity.
+</r><r ri="166">Students will create their first app using Xcode. They&#x2019;ll get familiar with the Xcode interface and learn how to add media as a resource within an Xcode project. They&#x2019;ll also learn how to build and run a project using the iOS Simulator.</r><r ri="167">What simple app could you create to either convey information or provide inspiration?
+</r><r ri="168">Calculate how many ounces are in five pints, two gallons, and one quart.&#13;</r><r ri="169">let totalVideoDuration = introDuration + (clipDuration * numberOfClips)
+</r><r ri="17">Apply (45 minutes)
+</r><r ri="170">Celebrity: Ms. Pop Star
+</r><r ri="172">Modulo
+</r><r ri="174">Check out additional resources to support learning and teaching coding.
+</r><r ri="175">Add and remove comments (nonexecuting code).
+</r><r ri="176">What might this code be calculating?
+</r><r ri="177">What might this code be calculating?
+</r><r ri="178">Which tasks would you like to achieve with code?
+</r><r ri="179">Modify the code in a function.
+</r><r ri="18">Students will get experience modifying an existing Xcode project by writing new logic for QuestionBot. The project models a design in which the app logic is separated from the display. They&#x2019;ll also learn about how two or more people might collaborate on a single project, with  each person or team developing a different part of an app. And they&#x2019;ll get additional practice  with Xcode as they apply their learning to parse strings and experiment with their code in playgrounds before putting it into the project.</r><r ri="180">Learn more about the Everyone Can Code program.
+</r><r ri="181">Check out the other Everyone Can Code books
+</r><r ri="182">Combine two existing strings.
+</r><r ri="183">Combine a string with a number.
+</r><r ri="184">Also consider: What kinds of graphics and icons will your app display? What are some simple ways to communicate the features of your app without using words? In your app journals, sketch or describe the icons and graphics you might use. What kind of icon would represent your app as a whole?
+</r><r ri="186">Comment out&#13;</r><r ri="187">Comments&#13;</r><r ri="188">Save your work; you&#x2019;ll add to this list in a later activity.</r><r ri="189">For the app you&#x2019;re thinking of, what&#x2019;s an example of an input the brain would take? What&#x2019;s an example of a result it would return to display in the user interface?
+</r><r ri="19">Apply (60 to 90 minutes)
+</r><r ri="190">Connect with other educators in the Apple Developer Forum.
+</r><r ri="191">App Development with Swift
+</r><r ri="192">Get an overview and discover the learning objectives  of the lessons provided in the App Development with  Swift guide. 
+</r><r ri="193">App Development with Swift
+</r><r ri="194">Show and hide inspectors in Xcode.
+</r><r ri="196">Camel case
+</r><r ri="197">Cases
+</r><r ri="198">What&#x2019;s your favorite subject in school? Responses could be a fun fact about that subject.</r><r ri="199">Students should think about the following questions when they design:
+</r><r ri="2">After they&#x2019;ve made a list of apps, ask them to think about what these apps have in common. They can categorize them based on the types of problems they solve or the purpose they serve. For example, social media apps are designed to help communicate with friends; weather apps to help make decisions about what to wear; navigation apps to help you find where you&#x2019;re going,  and so on.</r><r ri="20">Without good names for these values, we have no  idea what they represent. It could be anything from  the distance of a sidewalk to the area of a rug plus  a remnant.&#13;</r><r ri="200">If you like, change the emoji robot head to another  emoji that better fits your question.
+</r><r ri="201">Other possible question prompts/response ideas:
+</r><r ri="204">Lesson 10  |  QuestionBot</r><r ri="205">Lesson 10  |  QuestionBot</r><r ri="206">QuestionBot
+</r><r ri="207">QuestionBot</r><r ri="208">Lesson 10  |  QuestionBot</r><r ri="209">Lesson 10  |  QuestionBot</r><r ri="21">Sample questions are provided for further reflection and discussion about the playground and Xcode lessons. You&#x2019;ll find examples to help facilitate discussion in class, and additional questions let you extend that discussion and spark ideas as students work on ideas for apps they want to create on their own. 
+</r><r ri="210">Results sidebar&#13;</r><r ri="211">Escape character
+</r><r ri="212">Escape sequence
+</r><r ri="214">Celebrity: Mr. Athlete
+</r><r ri="216">Learn more about Swift.
+</r><r ri="217">Practice
+</r><r ri="218">Practice (45 minutes) &#13;</r><r ri="219">Practice (45 minutes) &#13;</r><r ri="22">The App Development with Swift course is designed to help students build a solid foundation in programming fundamentals using Swift as the language. Throughout the course, students get practical experience with the tools, techniques, and concepts needed to build a basic iOS app from scratch. They&#x2019;ll also learn user interface design principles, which are fundamental to programming and making great apps.</r><r ri="220">Practice (45 minutes)
+</r><r ri="221">Practice (60 minutes)
+</r><r ri="222">Practice (60 to 90 minutes)
+</r><r ri="224">Navigate between the various files that make up an Xcode project (encapsulation).
+</r><r ri="226">Iterate
+</r><r ri="227">Inspiration: What inspires you or makes you smile? Design an app that with one tap shows you an inspiring quote and/or a photo that makes you smile. Later you could consider having the app play your &#x201C;go-to&#x201D; song from your music library.
+</r><r ri="228">Change values to fix errors.
+</r><r ri="229">Lesson 10
+</r><r ri="23">Identify three types of characters.
+</r><r ri="230">Review and Extend (15 minutes)
+</r><r ri="231">Return different values from a function based on user input  (conditionals, branching, string parsing, and manipulation).</r><r ri="232">Assignment: Problem Hunters
+</r><r ri="234">Introduce the topic
+</r><r ri="235">Assignment: That Sketchy Activity
+</r><r ri="236">Add the ages of the people in your immediate family.
+</r><r ri="237">Attributes inspector
+</r><r ri="238">Add a resource file to an Xcode project.
+</r><r ri="24">Ask students to identify the key questions that users would have when they open the app, for example, How do I find out what my next class is? Where&#x2019;s the closest bicycle repair shop? What&#x2019;s the fastest way to get home? Then ask them to think about how easily a user can find that information; ideally, it should take no more than  one or two taps.
+</r><r ri="241">App Journal (30 minutes)
+</r><r ri="242">Review and Extend (30 minutes)
+</r><r ri="243">Review and Extend (30 minutes)
+</r><r ri="244">Review and Extend (30 minutes)
+</r><r ri="245">Review and Extend (30 minutes)
+</r><r ri="247">Review and extend
+</r><r ri="248">First App: Single Photo</r><r ri="249">What&#x2019;s the first thing users will see when they open  the app?
+</r><r ri="25">In the Problem Hunter activity, you identified some problems that an app might solve. Pick one of those problems to focus on and start designing the app that  will solve that problem. In your app journals, write or sketch at least three views of what the interface for your own app might look like. What kinds of questions might your app answer for your users? How many taps will it take for them to find out what they need to know? 
+</r><r ri="252">App Journal (45 minutes)
+</r><r ri="253">App Journal (60 minutes)
+</r><r ri="254">App Journal (60 minutes)
+</r><r ri="255">App Journal (60 to 90 minutes)
+</r><r ri="256">Build and run an app in the iOS Simulator or on a device.
+</r><r ri="257">Which would you build an app to support? 
+</r><r ri="26">Explain how there are standard ways of delivering content through an app interface. One common method is to display the contents in a list called a table view. Individual items in the list are called cells. When the user taps a cell, the screen slides to the left to reveal a detailed view of the information that cell represents. Another method that is often used for collections that are visually identifiable is called a collection view. Information is presented in a grid of visual icons, called thumbnails. When the user taps a thumbnail, it opens to display more detailed information.
+</r><r ri="260">Assignment operator
+</r><r ri="261">How to use this Teacher Guide
+</r><r ri="263">Simulator
+</r><r ri="264">Assignment: App Dive
+</r><r ri="265">Teacher Guide</r><r ri="266">let heightInFeet = 6.3
+</r><r ri="269">Autocompletion
+</r><r ri="270">let nickname = "Sparky"
+</r><r ri="272">Additional resources</r><r ri="273">Additional Resources</r><r ri="274">Additional Resources
+</r><r ri="276">Edit the main storyboard in an Xcode project.</r><r ri="277">Storyboard
+</r><r ri="279">let rookieYear = 1997
+</r><r ri="28">Students are introduced to the concept of strings, which are used to store a series of characters.  They will also learn about string interpolation, a way to construct a String using value placeholders within a String literal. And they&#x2019;ll learn how numeric values can be added to strings so they report values of different variables while a program is running.</r><r ri="281">String interpolation
+</r><r ri="282">Strings</r><r ri="283">Strings</r><r ri="284">Strings
+</r><r ri="285">Strings</r><r ri="287">Unicode
+</r><r ri="289">Learning Objectives 
+</r><r ri="29">Review the multiple choice questions with your students. Were there any that they particularly struggled with? Ask students the following questions:
+</r><r ri="290">Learning Objectives 
+</r><r ri="291">Learning Objectives 
+</r><r ri="292">Learning Objectives 
+</r><r ri="293">Learning Objectives 
+</r><r ri="294">App Journal
+</r><r ri="297">Characters
+</r><r ri="3">Technology has a language. It&#x2019;s called code. And we believe coding is an essential skill. Learning to code teaches you how to solve problems and work together  in creative ways. And it helps you build apps that bring your ideas to life. We think everyone should have the opportunity to create something that can change the world. So we&#x2019;ve designed a new approach to coding  that lets anyone learn, write, and teach it.</r><r ri="30">Review the multiple choice questions with your students. Were there any that they particularly struggled with? Ask students the following questions:
+</r><r ri="300">Teaching Tips
+</r><r ri="301">Teaching Tips
+</r><r ri="302">Teaching Tips
+</r><r ri="303">Teaching Tips
+</r><r ri="304">Teaching Tips
+</r><r ri="306">Assignment: Why Apps?
+</r><r ri="307">Assignment
+</r><r ri="31">Review the multiple choice questions with your students. Were there any that they particularly struggled with? Ask students the following questions:
+</r><r ri="310">About the lessons</r><r ri="312">Quick Look button
+</r><r ri="316">Things to try:
+</r><r ri="317">Example: 
+</r><r ri="32">Review the multiple choice questions with students. Were there any that they particularly struggled with? Ask them the following questions, pointing out that playgrounds can achieve tasks that can be calculated or computed, and apps are needed to achieve tasks that aren&#x2019;t simple calculations: 
+</r><r ri="320">Choose a celebrity.
+</r><r ri="321">Default answer
+</r><r ri="322">Welcome</r><r ri="324">Start a new Xcode project .
+</r><r ri="328">Students will be able to:
+</r><r ri="329">Students will be able to:
+</r><r ri="33">Review the multiple choice questions with your students. Were there any that they particularly struggled with? Ask students the following questions:
+</r><r ri="330">Students will be able to:
+</r><r ri="331">Students will be able to:
+</r><r ri="332">Students will be able to:
+</r><r ri="334">Introduction</r><r ri="335">Introduction</r><r ri="336">Introduction</r><r ri="338">Project navigator
+</r><r ri="34">What other kinds of calculations could you store and run in a playground? Examples include, how many seconds there are in a day or a week, or calculate a dog&#x2019;s age in human years, assuming he is five years old and one human year is equal to seven dog years.
+</r><r ri="341">Error&#13;</r><r ri="35">Divide students into groups to look at each others&#x2019; problems and find those that are commonly shared. 
+</r><r ri="36">Have students work in groups to come up with a list  of apps they find enjoyable to use. 
+</r><r ri="37">Students can take turns looking at screen shots or examples of apps. See if they can find examples of these different kinds of views in the apps they use.
+</r><r ri="38">Next test the interface with real people. It&#x2019;s better to just observe them using your prototype, rather than showing them how to use it. What kinds of questions should your app be able to answer? Were users able to find answers  for themselves? How many taps did it take? 
+</r><r ri="39">Find tools and resources for creating apps and accessories for Mac, iPhone, iPad, Apple Watch, and Apple TV.
+</r><r ri="4">What about the constants you created and named in the celebrity program activity? Were those names specific enough? Could anyone misinterpret what you meant?
+</r><r ri="40">From the Main.Story, change the text of the label that now reads &#x201C;Hello Human, I&#x2019;m Data. Ask me a question.&#x201D;  to the question you thought of in step 1. 
+</r><r ri="41">Apple, the Apple logo, Apple TV, Apple Watch, Cocoa, Cocoa Touch, iPad, iPhone, iPod touch, iTunes, Keynote, Mac, Pages, and Xcode are trademarks of Apple Inc., registered in the U.S.  and other countries. iPad Pro and Swift are trademarks of Apple Inc. iOS is a trademark or registered trademark of Cisco in the U.S. and other countries and is used under license.</r><r ri="42">Students will become familiar with playgrounds as they change values in code and see the results in the sidebar. This prepares students to use playgrounds as a flexible, dynamic learning space where they can experiment with running code and see the results immediately. And it encourages them to take risks and try lots of new things as they learn.</r><r ri="43">In your app journals, make a list of problems, dilemmas, or even minor irritating things you face regularly. Try to collect as many problems as possible because each one is an idea seeking a solution. Which of these problems might be solved with an app?
+</r><r ri="44">In your app journals, make a list of some of the apps  you use regularly. What need do these apps meet?  What problems do they solve?
+</r><r ri="45">As students progress through the course, they use the concepts they&#x2019;ve learned to plan an app of their own.  you can use the prompts in this section to get students thinking about an app project that solves a problem  or fills a need. They&#x2019;ll use app journals to keep track of  their thoughts.
+</r><r ri="46">Now take a look at a few of your favorite apps and try  to determine what they have in common. For example, how do you get back to a previous page? Where would  you expect to look? Think about how you might design  the interface of your own app that solves a problem or fills a need.
+</r><r ri="47">Choose a meaningful, specific name for a value (Naming Conventions).
+</r><r ri="48">Students have learned to change what QuestionBot says  by modifying the responseToQuestion function to provide a response that&#x2019;s based on what the user types  in. Now have them take it further and and follow the steps below to provide some specific responses based on a question they dream up.
+</r><r ri="49">Assignment: Prototyping
+</r><r ri="5">Instruct students to interview a friend, parent, teacher,  or anyone else and ask them what their problems are.
+</r><r ri="50">You can use a prototyping app such as POP - Prototyping on Paper to complete this exercise. Storyboard your app and take photos of the sketches you make of your app interface. Then add links so the user can go from screen  to screen.
+</r><r ri="51">An app journal can be an essential piece of a student&#x2019;s  app design toolkit. Journals allow designers to dream, brainstorm, prototype, and reflect on all sorts of ideas  that bubble up. The more students record their ideas, the more ideas will come to them. Because they can draw or sketch in their journals, it&#x2019;s important for them to choose tools that fit their learning styles. You can suggest that  your students use a Mac or iOS app such as Notes, Pages, or Keynote to build their app journals.</r><r ri="52">Record your observations in your app journals, with the  goal of improving your prototype and testing it again.  The more you do this (make improvements and test) the better your finished app will be.</r><r ri="53">You can provide paper or index cards for students to  use to start thinking about their prototype. Instruct them to draw a sketch of each view directly on the paper, and then switch the next card to the top of the pile when the user presses a button.
+</r><r ri="54">Provide a completed example of an app prototype so students can go through it from a user&#x2019;s viewpoint.
+</r><r ri="55">Using today&#x2019;s year and your birth year, calculate how  old you are (or will be) on your birthday this year.
+</r><r ri="56">Lesson 2: Naming and Constants: Naming and Constants 
+</r><r ri="57">Naming and Constants</r><r ri="58">Lesson 2  |  Naming and Constants</r><r ri="59">Lesson 2  |  Naming and Constants</r><r ri="6">This guide is designed for teachers to use with high school and college students new to programming.  You can use it in a stand-alone class or as part of any app development or computer science program. The course will align to various national and international curriculum standards for computer science. 
+</r><r ri="60">Lesson 2  |  Naming and Constants</r><r ri="61">Naming and Constants
+</r><r ri="62">Students will learn how to assign values to constants. They&#x2019;ll also get an introduction to naming conventions for constants, which is important for creating reusable code that can be easily understood by others. 
+</r><r ri="63">Students should complete Lesson 2: Naming and Constants in the student guide. </r><r ri="64">Lesson 2  |  Naming and Constants</r><r ri="66">Declare a new constant using the let keyword.
+</r><r ri="67">Constant&#13;</r><r ri="68">Now that students know how to best name things when they&#x2019;re writing code, and they realize that the value of some things will remain constant when an app is running, they can create a program that puts these concepts into action.
+</r><r ri="69">For each item on the list of data names, write let in front of the item name to indicate that it&#x2019;s a constant.
+</r><r ri="7">Some apps seem easier to use than others because elements are just easier to find and buttons and labels are where you expect them to be. There are standard ways of delivering content through an app interface. Read through the iOS Human Interface Guidelines, which explains certain guiding principles that well-designed apps share.
+</r><r ri="70">What are some examples of bad constant names? What makes them bad and what would you change to make  them better?</r><r ri="71">Declare a new string constant using literal text.
+</r><r ri="72">Declare a new string constant using Unicode characters.
+</r><r ri="73">Declare a new string constant using emoji.
+</r><r ri="74">Lessons are designed to be completed in three or  four class periods. A suggested amount of time needed to complete each activity in a lesson is included throughout the guide, so if you teach a less-structured class, you can divide up the lesson. Prior experience in programming isn&#x2019;t required for this course. But for students who have programming experience, early lessons can be moved through more quickly as they continue to learn about software development tools, concepts, and best practices that go beyond programming skills. </r><r ri="75">Is your experience with these apps different? If yes, how is your experience different?
+</r><r ri="76">Combine a string of literal text with one or more previously  declared values.
+</r><r ri="77">Use the Quick Look button to wrap text.
+</r><r ri="78">Use escape characters to output special text.</r><r ri="79">What apps do you use that show text?
+</r><r ri="8">Guide students to explore their lives and interests to gather ideas about problems they&#x2019;d like to solve. Examples can be anything from not getting enough sleep to the lack of fresh water for everyone in the world. 
+</r><r ri="80">What apps do you enter text into by typing or dictating? 
+</r><r ri="81">Do apps you use behave differently depending on what text you enter?
+</r><r ri="82">What are some apps that show little, if any, text? 
+</r><r ri="83">When designing an app, what are the benefits of showing text? What drawbacks might there be to showing or using text?
+</r><r ri="84">Look at an app that uses mostly text. How could you change the app to replace or eliminate some or all of  the text? What images or icons could you use?
+</r><r ri="85">Look at an app that uses very little, if any text. How  could the use of text improve the user&#x2019;s experience  with the app?
+</r><r ri="86">What happens when the user interacts with the view? What&#x2019;s the action? Does a text box with information  pop up? Is the user taken to a second view? What&#x2019;s that second view?
+</r><r ri="87">You could change the label text to &#x201C;Welcome to InterContinental Zoo. What animal would you like to see?&#x201D; Create different responses for each animal. Responses for this question could include information about the color, size, and diet of the animal, or other interesting facts. Remember to add a default response, such as &#x201C;Sorry, the zoo doesn&#x2019;t have that animal.&#x201D;
+</r><r ri="88">Many apps use this same architecture, where the app  has a separate &#x201C;brain&#x201D; that tells the user interface what to display. Think of an app that you use, and imagine what its brain&#x2019;s job would be. For example, QuestionBot takes in a string question and returns a string answer. So if  you input &#x201D;Should I sing out loud?,&#x201D; the result will be &#x201C;Probably.&#x201D; 
+</r><r ri="89">Lesson 1: Playground Basics Playground: Basics Playground Basics 
+</r><r ri="9">let homeTown = " Nashville "
+</r><r ri="90">Lesson 1  |  Playground Basics</r><r ri="91">Lesson 1  |  Playground Basics</r><r ri="92">Lesson 1  |  Playground Basics</r><r ri="93">Lesson 1
+</r><r ri="94">Students will complete Lesson 1: Playground Basics in the student guide. </r><r ri="95">let birthDate = " January 1, 1991 "
+</r><r ri="96">// Option 1
+</r><r ri="97">First App: Single Photo&#x2014;Part 1
+</r><r ri="98">Lesson 2
+</r><r ri="99">// Option 2
+</r></rs></reftext>

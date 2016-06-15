@@ -1,0 +1,2065 @@
+@namespace ibooks "http://www.apple.com/2011/iBooks";
+@font-face{
+  font-family: "MyriadSetPro-Text";
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("../fonts/MyriadSetPro-text.ttf");
+}
+@font-face{
+  font-family: "MyriadSetPro-Thin";
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: condensed;
+  src: url("../fonts/MyriadSetPro-thin.ttf");
+}
+@font-face{
+  font-family: "MyriadSetPro-Semibold";
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("../fonts/MyriadSetPro-semibold.ttf");
+}
+@font-face{
+  font-family: "MyriadSetPro-Bold";
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("../fonts/MyriadSetPro-bold.ttf");
+}
+@font-face{
+  font-family: "MyriadSetOT-Text";
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("../fonts/Myriad%20Set%20Cyr%20Txt.otf");
+}
+sup{
+	font-size: 67%;
+	vertical-align: 33%;
+}
+a.anchor{
+	-ibooks-layout-hint: anchor;
+	display: none;
+}
+a.pageShape{
+	-ibooks-layout-hint: anchor page shape;
+	display: none;
+}
+.pagebreak{
+	break-after: page;
+}
+div.multichoice{
+	list-style-type: upper-alpha;
+}
+.columnbreak{
+	break-after: column;
+}
+p, ul, ol{
+	margin: 0px;
+}
+a.shape{
+	-ibooks-layout-hint: shape;
+	display: none;
+}
+body{
+	white-space: pre-wrap;
+}
+.hide{
+	display: none;
+}
+sub{
+	font-size: 67%;
+	vertical-align: -10%;
+}
+a.attachment{
+	-ibooks-layout-hint: inline;
+	display: none;
+}
+table{
+	border-collapse: collapse;
+	white-space: pre-wrap;
+}
+.inlineblock{
+	display: inline;
+}
+a.page{
+	-ibooks-layout-hint: anchor page;
+	display: none;
+}
+.s1{
+	-ibooks-stroke: none;
+	box-shadow: none;
+	fill: #5ABEC1;
+	opacity: 1.000;
+	stroke: #4D4D4D;
+	stroke-linecap: butt;
+	stroke-linejoin: miter;
+	stroke-miterlimit: 4.0;
+	stroke-width: 0.5pt;
+}
+.s2{
+	fill: #F6F6EE;
+}
+.s3{
+	fill: #5388B8;
+	stroke: none;
+}
+.s4{
+	-ibooks-stroke: none;
+	box-shadow: none;
+	fill: none;
+	opacity: 1.000;
+	stroke: none;
+}
+.s5{
+	-ibooks-column-count: 1;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	vertical-align: top;
+}
+.s6{
+	-ibooks-column-count: 2;
+	-ibooks-column-gap:  5.00%;
+	-ibooks-column-width:  47.50% 47.50%;
+}
+.s7{
+	-ibooks-line-spacing-mode: exact;
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #FFFFFF;
+	font-family: "MyriadSetPro-Semibold";
+	font-size: 166.67%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	hyphens: auto;
+	letter-spacing: 0;
+	line-height: 22.00pt;
+	margin-bottom: 2.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 22.00pt;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: uppercase;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s8{
+	-ibooks-list-text-indent: 0.00pt;
+	font-size: 150.00%;
+}
+.s9{
+	-ibooks-line-spacing-mode: exact;
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #FFFFFF;
+	font-family: "MyriadSetPro-Text";
+	font-size: 150.00%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: none;
+	letter-spacing: 0;
+	line-height: 23.00pt;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s10{
+	padding-left: 0;
+}
+.s11{
+	-ibooks-bullet-baseline: 0.00pt;
+	-ibooks-custom-bullet: "•";
+	-ibooks-list-text-indent: 14.40pt;
+	list-style-position: -ibooks-inside-align-to-text;
+	margin-bottom: 5.00pt;
+}
+.s12{
+	-ibooks-bullet-baseline: 0.00pt;
+	-ibooks-custom-bullet: "•";
+	-ibooks-line-spacing-mode: exact;
+	-ibooks-list-text-indent: 14.40pt;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #FFFFFF;
+	font-family: "MyriadSetPro-Text";
+	font-size: 150.00%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: none;
+	letter-spacing: 0;
+	line-height: 23.00pt;
+	list-style-position: -ibooks-inside-align-to-text;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+}
+.s13{
+	-ibooks-line-spacing-mode: exact;
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #FFFFFF;
+	font-family: "MyriadSetPro-Text";
+	font-size: 150.00%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: none;
+	letter-spacing: 0;
+	line-height: 23.00pt;
+	margin-bottom: 5.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s14{
+	-ibooks-list-text-indent: 0.00pt;
+	font-family: "MyriadSetPro-Semibold";
+	font-weight: bold;
+	margin-top: 22.00pt;
+	text-transform: uppercase;
+}
+.s15{
+	-ibooks-bullet-baseline: 0.00pt;
+	-ibooks-custom-bullet: "•";
+	-ibooks-list-text-indent: 14.40pt;
+	font-family: "MyriadSetPro-Semibold";
+	font-weight: bold;
+	list-style-position: -ibooks-inside-align-to-text;
+}
+.s16{
+	opacity: 0.000;
+}
+.s17{
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #232323;
+	font-family: "Georgia";
+	font-size: 133.33%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: auto;
+	letter-spacing: 0;
+	line-height: 1.20em;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s18{
+	-ibooks-list-text-indent: 0.00pt;
+	color: #444444;
+	font-family: "MyriadSetPro-Thin";
+	font-size: 400.00%;
+	line-height: 1.00em;
+	text-indent: 3.60pt;
+}
+.s19{
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #000000;
+	font-family: "MyriadSetPro-Thin";
+	font-size: 200.00%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: auto;
+	letter-spacing: 0;
+	line-height: 1.00em;
+	margin-bottom: 6.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 18.00pt;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s20{
+	-ibooks-list-text-indent: 0.00pt;
+	color: rgba(239,179,29,0.000000);
+}
+.s21{
+	-ibooks-line-spacing-mode: exact;
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #424242;
+	font-family: "MyriadSetPro-Text";
+	font-size: 150.00%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: none;
+	letter-spacing: 0;
+	line-height: 23.00pt;
+	margin-bottom: 12.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s22{
+	-ibooks-list-text-indent: 0.00pt;
+	color: #5186BA;
+	font-family: "MyriadSetPro-Thin";
+	font-size: 800.00%;
+	letter-spacing: -0.02em;
+	line-height: 96.00pt;
+	margin-bottom: 20.00pt;
+}
+.s23{
+	-ibooks-line-spacing-mode: exact;
+	-ibooks-list-text-indent: 0.00pt;
+	color: #444444;
+	font-family: "MyriadSetPro-Thin";
+	font-size: 400.00%;
+	line-height: 30.00pt;
+	text-indent: 3.60pt;
+}
+.s24{
+	-ibooks-stroke: none;
+	box-shadow: none;
+	fill: #EBEBEB;
+	opacity: 1.000;
+	stroke: #818181;
+	stroke-linecap: butt;
+	stroke-linejoin: miter;
+	stroke-miterlimit: 4.0;
+	stroke-width: 1.0pt;
+}
+.s25{
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #FFFFFF;
+	font-family: "MyriadSetOT-Text";
+	font-size: 108.33%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: none;
+	letter-spacing: 0;
+	line-height: 1.00em;
+	margin-bottom: 10.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: right;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s26{
+	-ibooks-list-text-indent: 0.00pt;
+	color: #7F7F7F;
+}
+.s27{
+	-ibooks-list-text-indent: 0.00pt;
+	font-family: "MyriadSetPro-Thin";
+	font-size: 291.67%;
+}
+.s28{
+	-ibooks-line-spacing-mode: exact;
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #515151;
+	font-family: "MyriadSetPro-Text";
+	font-size: 83.33%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: none;
+	letter-spacing: 0;
+	line-height: 22.00pt;
+	margin-bottom: 15.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s29{
+	-ibooks-list-text-indent: 0.00pt;
+	font-size: 100.00%;
+	tab-stops: '' left 117.0pt;
+}
+.s30{
+	-ibooks-line-spacing-mode: exact;
+	-ibooks-list-text-indent: 0.00pt;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #424242;
+	font-family: "MyriadSetPro-Text";
+	font-size: 150.00%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: none;
+	letter-spacing: 0;
+	line-height: 23.00pt;
+	margin-bottom: 12.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+}
+.s31{
+	-ibooks-list-text-indent: 0.00pt;
+	letter-spacing: -0.02em;
+}
+.s32{
+	-ibooks-stroke: none;
+	box-shadow: none;
+	fill: none;
+	marker-end: none;
+	marker-start: none;
+	opacity: 1.000;
+	stroke: #818181;
+	stroke-linecap: butt;
+	stroke-linejoin: miter;
+	stroke-miterlimit: 4.0;
+	stroke-width: 0.5pt;
+}
+.s33{
+	stroke: #5186BA;
+	stroke-width: 3.5pt;
+}
+.s34{
+	-ibooks-list-text-indent: 0.00pt;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #000000;
+	font-family: "MyriadSetPro-Thin";
+	font-size: 233.33%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: auto;
+	letter-spacing: 0;
+	line-height: 1.00em;
+	margin-bottom: 10.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 25.00pt;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+}
+.s35{
+	-ibooks-list-text-indent: 0.00pt;
+}
+.s36{
+	-ibooks-line-spacing-mode: exact;
+	-ibooks-list-text-indent: 0.00pt;
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #424242;
+	font-family: "MyriadSetPro-Semibold";
+	font-size: 166.67%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	hyphens: none;
+	letter-spacing: 0;
+	line-height: 23.00pt;
+	margin-bottom: 5.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 15.00pt;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s37{
+	-ibooks-bullet-baseline: 0.00pt;
+	-ibooks-list-text-indent: 18.00pt;
+	list-style-position: -ibooks-inside-align-to-text;
+	list-style-type: decimal;
+	margin-bottom: 16.00pt;
+	margin-left: 43.20pt;
+}
+.s38{
+	-ibooks-list-text-indent: 18.00pt;
+	margin-bottom: 16.00pt;
+}
+.s39{
+	-ibooks-list-text-indent: 0.00pt;
+	margin-bottom: 5.00pt;
+}
+.s40{
+	-ibooks-bullet-baseline: 0.00pt;
+	-ibooks-line-spacing-mode: exact;
+	-ibooks-list-text-indent: 18.00pt;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #424242;
+	font-family: "MyriadSetPro-Text";
+	font-size: 150.00%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: none;
+	letter-spacing: 0;
+	line-height: 23.00pt;
+	list-style-position: -ibooks-inside-align-to-text;
+	list-style-type: decimal;
+	margin-bottom: 12.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+}
+.s41{
+	counter-reset: item 1;
+}
+.s42{
+	counter-reset: item 2;
+	padding-left: 0;
+}
+.s43{
+	-ibooks-bullet-baseline: 0.00pt;
+	-ibooks-list-text-indent: 18.00pt;
+	list-style-position: -ibooks-inside-align-to-text;
+	list-style-type: decimal;
+}
+.s44{
+	box-shadow: -0.0pt 3.0pt 10.0pt rgba(105,105,105,0.360000);
+	stroke: #9E9E9E;
+	stroke-linecap: butt;
+	stroke-linejoin: miter;
+	stroke-miterlimit: 4.0;
+	stroke-width: 0.2pt;
+}
+.s45{
+	counter-reset: item 4;
+	padding-left: 0;
+}
+.s46{
+	counter-reset: item 5;
+}
+.s47{
+	-ibooks-bullet-baseline: 0.00pt;
+	-ibooks-bullet-font-size: 100.00%;
+	-ibooks-custom-bullet: "";
+	-ibooks-line-spacing-mode: exact;
+	-ibooks-list-text-indent: 0;
+	color: #000000;
+	font-family: "MyriadSetPro-Text";
+	font-size: 125.00%;
+	line-height: 19.00pt;
+	list-style-position: -ibooks-inside-align-to-text;
+	margin-bottom: 13.00pt;
+	tab-stops: '' left 9.0pt '' left 18.0pt '' left 28.0pt '' left 56.0pt '' left 84.0pt '' left 112.0pt '' left 140.0pt '' left 168.0pt '' left 196.0pt '' left 224.0pt '' left 252.0pt '' left 280.0pt '' left 308.0pt '' left 336.0pt;
+}
+.s48{
+	-ibooks-bullet-baseline: 0.00pt;
+	-ibooks-bullet-font-size: 100.00%;
+	-ibooks-custom-bullet: "";
+	-ibooks-line-spacing-mode: exact;
+	-ibooks-list-text-indent: 0;
+	color: #000000;
+	font-family: "MyriadSetPro-Text";
+	font-size: 125.00%;
+	line-height: 18.00pt;
+	list-style-position: -ibooks-inside-align-to-text;
+	margin-bottom: 13.00pt;
+	tab-stops: '' left 9.0pt '' left 18.0pt '' left 28.0pt '' left 56.0pt '' left 84.0pt '' left 112.0pt '' left 140.0pt '' left 168.0pt '' left 196.0pt '' left 224.0pt '' left 252.0pt '' left 280.0pt '' left 308.0pt '' left 336.0pt;
+}
+.s49{
+	counter-reset: item 6;
+	padding-left: 0;
+}
+.s50{
+	-ibooks-list-text-indent: 0.00pt;
+	-ibooks-strikethru-type: none;
+	-ibooks-strikethru-width: 1.00px;
+	-ibooks-underline-type: none;
+	-ibooks-underline-width: 1.00px;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-style: none;
+	border-top-width: 0;
+	color: #000000;
+	font-family: "MyriadSetPro-Thin";
+	font-size: 233.33%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	hyphens: auto;
+	letter-spacing: 0;
+	line-height: 1.00em;
+	margin-bottom: 10.00pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 25.00pt;
+	page-break-before: auto;
+	tab-interval: 36.00pt;
+	tab-stops: none;
+	text-align: left;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.s51{
+	-ibooks-list-text-indent: 0.00pt;
+	margin-bottom: 47.00pt;
+}
+.s52{
+	-ibooks-bullet-baseline: 0.00pt;
+	-ibooks-list-text-indent: 18.00pt;
+	list-style-position: -ibooks-inside-align-to-text;
+	list-style-type: decimal;
+	margin-bottom: 21.00pt;
+}
+.s53{
+	-ibooks-list-text-indent: 18.00pt;
+	margin-bottom: 21.00pt;
+}
+.s54{
+	-ibooks-list-text-indent: 0.00pt;
+}
+.s55{
+	-ibooks-list-text-indent: 0.00pt;
+	font-family: "MyriadSetPro-Semibold";
+	font-size: 125.00%;
+	font-weight: bold;
+	line-height: 18.00pt;
+	margin-bottom: 2.00pt;
+}
+.s56{
+	-ibooks-list-text-indent: 0.00pt;
+	font-size: 125.00%;
+	line-height: 18.00pt;
+}
+.s57{
+	-ibooks-list-text-indent: 0.00pt;
+	font-size: 125.00%;
+	letter-spacing: -0.02em;
+	line-height: 18.00pt;
+}
+.s58{
+	fill: none;
+	stroke: #F3893C;
+	stroke-width: 1.5pt;
+}
+.s59{
+	stroke: #F3893C;
+	stroke-width: 1.5pt;
+}
+.s60{
+	-ibooks-list-text-indent: 0.00pt;
+	font-size: 125.00%;
+	letter-spacing: -0.02em;
+	line-height: 18.00pt;
+	text-align: right;
+}
+.c1{
+	background: transparent;
+}
+.c2{
+	background: transparent;
+	font-style: normal;
+}
+.c3{
+	-ibooks-strikethru-type: none;
+	-ibooks-underline-type: none;
+	background: transparent;
+	color: #606060;
+	font-family: "Courier";
+	font-size: 94.44%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	letter-spacing: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.c4{
+	font-family: "MyriadSetPro-Semibold";
+	font-weight: bold;
+}
+.c5{
+	-ibooks-strikethru-type: none;
+	-ibooks-underline-type: none;
+	background: transparent;
+	color: #606060;
+	font-family: "Courier";
+	font-size: 113.33%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	letter-spacing: 0;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: 0;
+	text-decoration: none;
+}
+.c6{
+	font-size: 93.33%;
+}
+.c7{
+	font-style: normal;
+}
+.c8{
+	background: transparent;
+	font-family: "MyriadSetPro-Bold";
+	font-weight: bold;
+}
+.c9{
+	font-size: 88.89%;
+}
+.c10{
+	vertical-align: -1.00pt;
+}
+.c11{
+	letter-spacing: 0.10em;
+}
+.c12{
+	font-family: "MyriadSetPro-Semibold";
+	font-style: normal;
+	font-weight: bold;
+}
+#textShape-653-svg{
+	height: 630.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 564.000pt;
+}
+#textShape-161-div{
+	height: 616.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 564.000pt;
+}
+#group-0-gen{
+	display: block;
+	height: 627.537pt;
+	left: 10.000pt;
+	position: absolute;
+	top: 10.000pt;
+	width: 358.000pt;
+}
+#textShape-150-div{
+	height: 616.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 564.000pt;
+}
+#textShape-656{
+	-ibooks-slot: textShape-656;
+	display: block;
+}
+#textShape-8{
+	-ibooks-slot: textShape-8;
+	display: block;
+}
+#textShape-971-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#image-8{
+	-ibooks-slot: image-8;
+	display: block;
+}
+#textShape-983{
+	-ibooks-slot: textShape-983;
+	display: block;
+}
+#textShape-156{
+	-ibooks-slot: textShape-156;
+	display: block;
+}
+#textShape-64{
+	-ibooks-slot: textShape-64;
+	display: block;
+	transform: matrix(-0,-1,1,-0,0,0);
+}
+#textShape-54-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-991-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-515{
+	-ibooks-slot: textShape-515;
+	display: block;
+}
+#textShape-645-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-85{
+	-ibooks-slot: textShape-85;
+	display: block;
+}
+#textShape-986-svg{
+	height: 607.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 564.000pt;
+}
+#textShape-1-div{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#textShape-969{
+	-ibooks-slot: textShape-969;
+	display: block;
+}
+#textShape-151{
+	-ibooks-slot: textShape-151;
+	display: block;
+}
+#textShape-526{
+	-ibooks-slot: textShape-526;
+	display: block;
+}
+#textShape-8-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-654-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-648{
+	-ibooks-slot: textShape-648;
+	display: block;
+}
+#textShape-46{
+	-ibooks-slot: textShape-46;
+	display: block;
+}
+#textShape-969-div{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#textShape-150-svg{
+	height: 616.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 564.000pt;
+}
+#textShape-649-div{
+	height: 616.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 560.000pt;
+}
+#textShape-49-svg{
+	height: 607.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 564.000pt;
+}
+#image-10{
+	-ibooks-slot: image-10;
+	display: block;
+}
+#textShape-643-div{
+	height: 263.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 907.000pt;
+}
+#frame-7{
+	-ibooks-slot: frame-7;
+	display: block;
+}
+#textShape-46-div{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#textShape-521{
+	-ibooks-slot: textShape-521;
+	display: block;
+}
+#textShape-161-svg{
+	height: 616.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 564.000pt;
+}
+#textShape-89-div{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-88{
+	-ibooks-slot: textShape-88;
+	display: block;
+}
+#textShape-643{
+	-ibooks-slot: textShape-643;
+	display: block;
+}
+#image-44{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+	display: block;
+	height: 399.375pt;
+	left: 66.000pt;
+	position: absolute;
+	top: 115.000pt;
+	width: 225.000pt;
+}
+#image-280{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+	display: block;
+	height: 627.537pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 358.000pt;
+}
+#textShape-652-div{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#textShape-989-div{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#image-47{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+	display: block;
+	height: 192.272pt;
+	left: 0.000pt;
+	position: absolute;
+	top: 0.000pt;
+	width: 370.811pt;
+}
+#textShape-654{
+	-ibooks-slot: textShape-654;
+	display: block;
+}
+#textShape-49{
+	-ibooks-slot: textShape-49;
+	display: block;
+}
+#textShape-986{
+	-ibooks-slot: textShape-986;
+	display: block;
+}
+#textShape-987-div{
+	height: 410.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 326.000pt;
+}
+#textShape-650-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-518{
+	-ibooks-slot: textShape-518;
+	display: block;
+}
+#textShape-656-div{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#textShape-981{
+	-ibooks-slot: textShape-981;
+	display: block;
+}
+#textShape-60{
+	-ibooks-slot: textShape-60;
+	display: block;
+}
+#textShape-12-svg{
+	height: 166.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 615.000pt;
+}
+#textShape-195{
+	-ibooks-slot: textShape-195;
+	display: block;
+}
+#textShape-179-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-649-svg{
+	height: 616.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 560.000pt;
+}
+#textShape-985-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-56{
+	-ibooks-slot: textShape-56;
+	display: block;
+}
+#textShape-12-div{
+	height: 166.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 615.000pt;
+}
+#textShape-992{
+	-ibooks-slot: textShape-992;
+	display: block;
+}
+#textShape-6{
+	-ibooks-slot: textShape-6;
+	display: block;
+}
+#textShape-524{
+	-ibooks-slot: textShape-524;
+	display: block;
+}
+#textShape-49-div{
+	height: 607.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 564.000pt;
+}
+#textShape-177-div{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#textShape-983-div{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#textShape-646{
+	-ibooks-slot: textShape-646;
+	display: block;
+}
+#textShape-155-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-160{
+	-ibooks-slot: textShape-160;
+	display: block;
+}
+#textShape-9{
+	-ibooks-slot: textShape-9;
+	display: block;
+}
+#textShape-63{
+	-ibooks-slot: textShape-63;
+	display: block;
+}
+#image-6{
+	-ibooks-slot: image-6;
+	display: block;
+}
+#textShape-84{
+	-ibooks-slot: textShape-84;
+	display: block;
+}
+#textShape-641{
+	-ibooks-slot: textShape-641;
+	display: block;
+}
+#textShape-657{
+	-ibooks-slot: textShape-657;
+	display: block;
+}
+#textShape-656-svg{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#textShape-992-div{
+	height: 607.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 564.000pt;
+}
+#textShape-981-div{
+	height: 607.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 564.000pt;
+}
+#textShape-80-svg{
+	height: 288.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 314.000pt;
+}
+#textShape-989{
+	-ibooks-slot: textShape-989;
+	display: block;
+}
+#image-38{
+	-ibooks-slot: image-38;
+	display: block;
+}
+#textShape-6-svg{
+	height: 178.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 661.000pt;
+}
+#textShape-645-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-153-div{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#image-293{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+	display: block;
+	height: 367.000pt;
+	left: 10.000pt;
+	position: absolute;
+	top: 10.000pt;
+	width: 517.000pt;
+}
+#textShape-652{
+	-ibooks-slot: textShape-652;
+	display: block;
+}
+#textShape-985-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-195-div{
+	height: 616.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 564.000pt;
+}
+#image-296{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+	display: block;
+	height: 353.000pt;
+	left: 10.000pt;
+	position: absolute;
+	top: 10.000pt;
+	width: 517.000pt;
+}
+#textShape-654-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-643-svg{
+	height: 263.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 907.000pt;
+}
+#textShape-969-svg{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#textShape-151-div{
+	height: 267.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 592.000pt;
+}
+#textShape-516{
+	-ibooks-slot: textShape-516;
+	display: block;
+}
+#textShape-91{
+	-ibooks-slot: textShape-91;
+	display: block;
+}
+#textShape-9-svg{
+	height: 607.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 564.000pt;
+}
+#textShape-87{
+	-ibooks-slot: textShape-87;
+	display: block;
+}
+#frame-8{
+	-ibooks-slot: frame-8;
+	display: block;
+}
+#textShape-983-svg{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#textShape-155-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-989-svg{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#textShape-652-svg{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#frame-10{
+	-ibooks-slot: frame-10;
+	display: block;
+}
+#textShape-160-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#image-46{
+	display: block;
+	height: 120.471pt;
+	left: 219.581pt;
+	position: absolute;
+	top: 52.119pt;
+	width: 120.471pt;
+}
+#textShape-48{
+	-ibooks-slot: textShape-48;
+	display: block;
+}
+#textShape-649{
+	-ibooks-slot: textShape-649;
+	display: block;
+}
+#textShape-179{
+	-ibooks-slot: textShape-179;
+	display: block;
+}
+#textShape-992-svg{
+	height: 607.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 564.000pt;
+}
+#textShape-522{
+	-ibooks-slot: textShape-522;
+	display: block;
+}
+#textShape-981-svg{
+	height: 607.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 564.000pt;
+}
+#textShape-153-svg{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#textShape-987-svg{
+	height: 410.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 326.000pt;
+}
+#textShape-650-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-1{
+	-ibooks-slot: textShape-1;
+	display: block;
+}
+#textShape-644{
+	-ibooks-slot: textShape-644;
+	display: block;
+}
+#textShape-8-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-149{
+	-ibooks-slot: textShape-149;
+	display: block;
+}
+#textShape-80{
+	-ibooks-slot: textShape-80;
+	display: block;
+}
+#textShape-80-div{
+	height: 288.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 314.000pt;
+}
+#image-23{
+	height: 15.120pt;
+	width: 25.200pt;
+}
+#textShape-644-div{
+	height: 59.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 421.000pt;
+}
+#textShape-151-svg{
+	height: 267.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 592.000pt;
+}
+#textShape-971{
+	-ibooks-slot: textShape-971;
+	display: block;
+}
+#textShape-987{
+	-ibooks-slot: textShape-987;
+	display: block;
+}
+#textShape-179-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-1-svg{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#textShape-519{
+	-ibooks-slot: textShape-519;
+	display: block;
+}
+#textShape-650{
+	-ibooks-slot: textShape-650;
+	display: block;
+}
+#textShape-653-div{
+	height: 630.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 564.000pt;
+}
+#textShape-56-svg{
+	height: 688.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 564.000pt;
+}
+#textShape-160-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-62{
+	-ibooks-slot: textShape-62;
+	display: block;
+}
+#textShape-155{
+	-ibooks-slot: textShape-155;
+	display: block;
+}
+#textShape-648-div{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#textShape-177-svg{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#image-1{
+	-ibooks-slot: image-1;
+	display: block;
+}
+#textShape-514{
+	-ibooks-slot: textShape-514;
+	display: block;
+}
+#textShape-51-svg{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#textShape-150{
+	-ibooks-slot: textShape-150;
+	display: block;
+}
+#textShape-657-div{
+	height: 607.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 564.000pt;
+}
+#textShape-149-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-646-div{
+	height: 50.495pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 596.694pt;
+}
+#textShape-525{
+	-ibooks-slot: textShape-525;
+	display: block;
+}
+#image-37{
+	-ibooks-slot: image-37;
+	display: block;
+}
+#textShape-48-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-161{
+	-ibooks-slot: textShape-161;
+	display: block;
+}
+#image-291{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+	display: block;
+	height: 367.000pt;
+	left: 10.000pt;
+	position: absolute;
+	top: 10.000pt;
+	width: 517.000pt;
+}
+#textShape-177{
+	-ibooks-slot: textShape-177;
+	display: block;
+}
+#textShape-195-svg{
+	height: 616.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 564.000pt;
+}
+#textShape-986-div{
+	height: 607.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 564.000pt;
+}
+#textShape-520{
+	-ibooks-slot: textShape-520;
+	display: block;
+}
+#textShape-158-div{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#image-294{
+	display: block;
+	height: 341.718pt;
+	left: 10.000pt;
+	position: absolute;
+	top: 28.000pt;
+	width: 564.000pt;
+}
+#textShape-147-div{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#textShape-86{
+	-ibooks-slot: textShape-86;
+	display: block;
+	transform: matrix(-0,-1,1,-0,0,0);
+}
+#textShape-642{
+	-ibooks-slot: textShape-642;
+	display: block;
+}
+#textShape-147{
+	-ibooks-slot: textShape-147;
+	display: block;
+}
+#textShape-51{
+	-ibooks-slot: textShape-51;
+	display: block;
+}
+#frame-6{
+	-ibooks-slot: frame-6;
+	display: block;
+}
+#textShape-648-svg{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#textShape-156-div{
+	height: 616.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 564.000pt;
+}
+#frame-9{
+	-ibooks-slot: frame-9;
+	display: block;
+}
+#textShape-653{
+	-ibooks-slot: textShape-653;
+	display: block;
+}
+#textShape-985{
+	-ibooks-slot: textShape-985;
+	display: block;
+}
+#group-1-gen{
+	-ibooks-slot: group-1-gen;
+	display: block;
+}
+#textShape-158{
+	-ibooks-slot: textShape-158;
+	display: block;
+}
+#textShape-56-div{
+	height: 688.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 564.000pt;
+}
+#textShape-12{
+	-ibooks-slot: textShape-12;
+	display: block;
+}
+#image-48{
+	-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.500000 false;
+	display: block;
+	height: 105.092pt;
+	left: 374.909pt;
+	position: absolute;
+	top: 59.634pt;
+	width: 105.092pt;
+}
+#textShape-517{
+	-ibooks-slot: textShape-517;
+	display: block;
+}
+#textShape-6-div{
+	height: 178.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 661.000pt;
+}
+#textShape-149-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-54-svg{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-646-svg{
+	height: 50.495pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 596.694pt;
+}
+#textShape-657-svg{
+	height: 607.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 564.000pt;
+}
+#textShape-971-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-153{
+	-ibooks-slot: textShape-153;
+	display: block;
+}
+#textShape-51-div{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#textShape-89{
+	-ibooks-slot: textShape-89;
+	display: block;
+}
+#image-288{
+	-ibooks-slot: image-288;
+	display: block;
+}
+#textShape-54{
+	-ibooks-slot: textShape-54;
+	display: block;
+}
+#textShape-991{
+	-ibooks-slot: textShape-991;
+	display: block;
+}
+#textShape-158-svg{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#textShape-991-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-147-svg{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#textShape-644-svg{
+	height: 59.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 421.000pt;
+}
+#textShape-9-div{
+	height: 607.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 564.000pt;
+}
+#textShape-523{
+	-ibooks-slot: textShape-523;
+	display: block;
+}
+#image-50{
+	height: 15.120pt;
+	width: 25.200pt;
+}
+#textShape-48-div{
+	height: 20.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-89-svg{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 137.000pt;
+}
+#textShape-645{
+	-ibooks-slot: textShape-645;
+	display: block;
+}
+#textShape-46-svg{
+	height: 28.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 488.000pt;
+}
+#textShape-61{
+	-ibooks-slot: textShape-61;
+	display: block;
+}
+#textShape-156-svg{
+	height: 616.000pt;
+	left: 0pt;
+	position: absolute;
+	top: 0pt;
+	width: 564.000pt;
+}

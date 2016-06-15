@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BKAllocatedSize</key>
+	<integer>5140480</integer>
+	<key>BKDisplayName</key>
+	<string>mzbf.ovppdrsj..d2.dlv.d2.dlv.ibooks</string>
+	<key>BKGenerationCount</key>
+	<integer>2</integer>
+	<key>BKITunesMigratedMetadata</key>
+	<dict>
+		<key>PersistentID</key>
+		<integer>1183826104385166443</integer>
+	</dict>
+	<key>BKInsertionDate</key>
+	<integer>487650937</integer>
+	<key>apple-id</key>
+	<string>gnu.hua@gmail.com</string>
+	<key>artistId</key>
+	<integer>939801385</integer>
+	<key>artistName</key>
+	<string>Apple Education</string>
+	<key>asset-info</key>
+	<dict>
+		<key>file-size</key>
+		<integer>2566398</integer>
+		<key>flavor</key>
+		<string>pluspub</string>
+	</dict>
+	<key>book-info</key>
+	<dict>
+		<key>PageProgression</key>
+		<string>default</string>
+		<key>asset-info</key>
+		<dict>
+			<key>file-size</key>
+			<integer>2566398</integer>
+			<key>flavor</key>
+			<string>pluspub</string>
+		</dict>
+		<key>human-friendly-publication-version</key>
+		<string>1.1</string>
+		<key>languages</key>
+		<array>
+			<string>en</string>
+		</array>
+		<key>mime-type</key>
+		<string>application/x-ibooks+zip</string>
+		<key>package-file-hash</key>
+		<string>12176B7DE4950CCE03BB1D55F45FE881</string>
+		<key>publication-version</key>
+		<integer>161848914</integer>
+		<key>publisher-unique-id</key>
+		<string>FCD5AECA-0DFD-4F6A-8E2B-A46E04AD1F57</string>
+		<key>unique-id</key>
+		<integer>8038060957745980361</integer>
+		<key>update-level</key>
+		<integer>2</integer>
+	</dict>
+	<key>cover-writing-mode</key>
+	<string>horizontal</string>
+	<key>desktopSupportLevel</key>
+	<string>supported</string>
+	<key>drmVersionNumber</key>
+	<integer>0</integer>
+	<key>explicit</key>
+	<integer>0</integer>
+	<key>fileExtension</key>
+	<string>ibooks</string>
+	<key>genre</key>
+	<string>Education</string>
+	<key>genreId</key>
+	<integer>10037</integer>
+	<key>human-friendly-publication-version</key>
+	<string>1.1</string>
+	<key>isPreview</key>
+	<false/>
+	<key>itemId</key>
+	<string>1118577558</string>
+	<key>itemName</key>
+	<string>App Development with Swift</string>
+	<key>kind</key>
+	<string>ebook</string>
+	<key>languages</key>
+	<array>
+		<string>en</string>
+	</array>
+	<key>obeyPageBreaks</key>
+	<integer>1</integer>
+	<key>pageCount</key>
+	<integer>30</integer>
+	<key>primaryLanguage</key>
+	<string>en</string>
+	<key>publisher</key>
+	<string>Apple Inc. - Education</string>
+	<key>purchaseDate</key>
+	<string>2016-06-15T02:35:32Z</string>
+	<key>releaseDate</key>
+	<string>2016-06-13T07:00:00Z</string>
+	<key>s</key>
+	<integer>143441</integer>
+	<key>scroll-axis</key>
+	<string>default</string>
+	<key>seriesAdamId</key>
+	<integer>1118575554</integer>
+	<key>seriesSequenceDisplaySuppress</key>
+	<false/>
+	<key>seriesTitle</key>
+	<string>Everyone Can Code</string>
+	<key>shouldDisableOptimizeSpeed</key>
+	<true/>
+	<key>shouldDisableTouchEmulation</key>
+	<true/>
+	<key>sort-artist</key>
+	<string>Education, Apple</string>
+	<key>sort-name</key>
+	<string>App Development with Swift</string>
+	<key>subtitle</key>
+	<string>Teacher Guide</string>
+	<key>vendorId</key>
+	<integer>379015</integer>
+	<key>versionRestrictions</key>
+	<integer>16843008</integer>
+	<key>year</key>
+	<string>2016</string>
+</dict>
+</plist>
